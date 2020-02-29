@@ -1,0 +1,516 @@
+# coding: utf-8
+# AUTO-GENERATED FILE -- DO NOT EDIT
+
+
+class QAbstractItemModelTester(QObject):
+  """ QAbstractItemModelTester(QAbstractItemModel, parent: QObject = None)
+  QAbstractItemModelTester(QAbstractItemModel, QAbstractItemModelTester.FailureReportingMode, parent: QObject = None) """
+
+  class FailureReportingMode(IntEnum):
+    """ An enumeration. """
+
+    Fatal = None
+    QtTest = None
+    Warning = None
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def connectNotify():
+    pass
+
+  def customEvent():
+    pass
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def event(self, QEvent):
+    """ event(self, QEvent) -> bool """
+    return None
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def failureReportingMode(self):
+    """ failureReportingMode(self) -> QAbstractItemModelTester.FailureReportingMode """
+    return ""
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isSignalConnected():
+    pass
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def model(self):
+    """ model(self) -> QAbstractItemModel """
+    return ""
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def receivers():
+    pass
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+class QSignalSpy(QObject):
+  """ QSignalSpy(pyqtBoundSignal) """
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def connectNotify():
+    pass
+
+  def customEvent():
+    pass
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def event(self, QEvent):
+    """ event(self, QEvent) -> bool """
+    return None
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isSignalConnected():
+    pass
+
+  def isValid(self):
+    """ isValid(self) -> bool """
+    return None
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def receivers():
+    pass
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def signal(self):
+    """ signal(self) -> QByteArray """
+    return None
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+  def wait(self, arg0=None):
+    """ wait(self, timeout: int = 5000) -> bool """
+    return None
+
+class QTest(simplewrapper):
+
+  Click = None
+
+  class KeyAction(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  Press = None
+
+  class QTouchEventSequence(simplewrapper):
+    """ QTest.QTouchEventSequence(QTest.QTouchEventSequence) """
+
+    def commit():
+      """ commit(self, processEvents: bool = True) """
+      pass
+
+    def move(self, int, QPoint, arg0=None):
+      """ move(self, int, QPoint, window: QWindow = None) -> QTest.QTouchEventSequence
+      move(self, int, QPoint, QWidget) -> QTest.QTouchEventSequence """
+      return None
+
+    def press(self, int, QPoint, arg0=None):
+      """ press(self, int, QPoint, window: QWindow = None) -> QTest.QTouchEventSequence
+      press(self, int, QPoint, QWidget) -> QTest.QTouchEventSequence """
+      return None
+
+    def release(self, int, QPoint, arg0=None):
+      """ release(self, int, QPoint, window: QWindow = None) -> QTest.QTouchEventSequence
+      release(self, int, QPoint, QWidget) -> QTest.QTouchEventSequence """
+      return None
+
+    def stationary(self, int):
+      """ stationary(self, int) -> QTest.QTouchEventSequence """
+      return None
+
+  Release = None
+  Shortcut = None
+
+  def keyClick():
+    """ keyClick(QWidget, Qt.Key, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyClick(QWidget, str, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyClick(QWindow, Qt.Key, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyClick(QWindow, str, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1) """
+    pass
+
+  def keyClicks():
+    """ keyClicks(QWidget, str, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1) """
+    pass
+
+  def keyEvent():
+    """ keyEvent(QTest.KeyAction, QWidget, Qt.Key, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyEvent(QTest.KeyAction, QWidget, str, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyEvent(QTest.KeyAction, QWindow, Qt.Key, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyEvent(QTest.KeyAction, QWindow, str, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1) """
+    pass
+
+  def keyPress():
+    """ keyPress(QWidget, Qt.Key, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyPress(QWidget, str, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyPress(QWindow, Qt.Key, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyPress(QWindow, str, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1) """
+    pass
+
+  def keyRelease():
+    """ keyRelease(QWidget, Qt.Key, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyRelease(QWidget, str, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyRelease(QWindow, Qt.Key, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1)
+    keyRelease(QWindow, str, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.NoModifier, delay: int = -1) """
+    pass
+
+  def keySequence(QWidget, UnionQKeySequence=None, QKeySequence.StandardKey=None, str=None, int=None):
+    """ keySequence(QWidget, Union[QKeySequence, QKeySequence.StandardKey, str, int])
+    keySequence(QWindow, Union[QKeySequence, QKeySequence.StandardKey, str, int]) """
+    pass
+
+  def mouseClick():
+    """ mouseClick(QWidget, Qt.MouseButton, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.KeyboardModifiers(), pos: QPoint = QPoint(), delay: int = -1)
+    mouseClick(QWindow, Qt.MouseButton, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.KeyboardModifiers(), pos: QPoint = QPoint(), delay: int = -1) """
+    pass
+
+  def mouseDClick():
+    """ mouseDClick(QWidget, Qt.MouseButton, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.KeyboardModifiers(), pos: QPoint = QPoint(), delay: int = -1)
+    mouseDClick(QWindow, Qt.MouseButton, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.KeyboardModifiers(), pos: QPoint = QPoint(), delay: int = -1) """
+    pass
+
+  def mouseMove():
+    """ mouseMove(QWidget, pos: QPoint = QPoint(), delay: int = -1)
+    mouseMove(QWindow, pos: QPoint = QPoint(), delay: int = -1) """
+    pass
+
+  def mousePress():
+    """ mousePress(QWidget, Qt.MouseButton, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.KeyboardModifiers(), pos: QPoint = QPoint(), delay: int = -1)
+    mousePress(QWindow, Qt.MouseButton, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.KeyboardModifiers(), pos: QPoint = QPoint(), delay: int = -1) """
+    pass
+
+  def mouseRelease():
+    """ mouseRelease(QWidget, Qt.MouseButton, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.KeyboardModifiers(), pos: QPoint = QPoint(), delay: int = -1)
+    mouseRelease(QWindow, Qt.MouseButton, modifier: Union[Qt.KeyboardModifiers, Qt.KeyboardModifier] = Qt.KeyboardModifiers(), pos: QPoint = QPoint(), delay: int = -1) """
+    pass
+
+  def qSleep(int):
+    """ qSleep(int) """
+    pass
+
+  def qWait(int):
+    """ qWait(int) """
+    pass
+
+  def qWaitForWindowActive(QWindow, arg0=None):
+    """ qWaitForWindowActive(QWindow, timeout: int = 5000) -> bool
+    qWaitForWindowActive(QWidget, timeout: int = 5000) -> bool """
+    return None
+
+  def qWaitForWindowExposed(QWindow, arg0=None):
+    """ qWaitForWindowExposed(QWindow, timeout: int = 5000) -> bool
+    qWaitForWindowExposed(QWidget, timeout: int = 5000) -> bool """
+    return None
+
+  def touchEvent(QWidget, QTouchDevice):
+    """ touchEvent(QWidget, QTouchDevice) -> QTest.QTouchEventSequence
+    touchEvent(QWindow, QTouchDevice) -> QTest.QTouchEventSequence """
+    return None
+
+__doc__ = None
+__file__ = 'C:\\Users\\Rupka\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\PyQt5\\QtTest.pyd'
+__loader__ = None
+__name__ = 'PyQt5.QtTest'
+__package__ = 'PyQt5'
+__spec__ = None
+

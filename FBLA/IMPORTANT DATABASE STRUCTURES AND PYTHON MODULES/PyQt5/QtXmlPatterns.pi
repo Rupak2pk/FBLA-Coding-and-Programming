@@ -1,0 +1,1068 @@
+# coding: utf-8
+# AUTO-GENERATED FILE -- DO NOT EDIT
+
+
+class QAbstractMessageHandler(QObject):
+  """ QAbstractMessageHandler(parent: QObject = None) """
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def connectNotify():
+    pass
+
+  def customEvent():
+    pass
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def event(self, QEvent):
+    """ event(self, QEvent) -> bool """
+    return None
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def handleMessage(self, QtMsgType, str, QUrl, QSourceLocation):
+    """ handleMessage(self, QtMsgType, str, QUrl, QSourceLocation) """
+    pass
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isSignalConnected():
+    pass
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def message():
+    """ message(self, QtMsgType, str, identifier: QUrl = QUrl(), sourceLocation: QSourceLocation = QSourceLocation()) """
+    pass
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def receivers():
+    pass
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+class QAbstractUriResolver(QObject):
+  """ QAbstractUriResolver(parent: QObject = None) """
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def connectNotify():
+    pass
+
+  def customEvent():
+    pass
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def event(self, QEvent):
+    """ event(self, QEvent) -> bool """
+    return None
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isSignalConnected():
+    pass
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def receivers():
+    pass
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def resolve(self, QUrl, QUrl):
+    """ resolve(self, QUrl, QUrl) -> QUrl """
+    return None
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+class QAbstractXmlNodeModel(simplewrapper):
+  """ QAbstractXmlNodeModel() """
+
+  FirstChild = None
+  NextSibling = None
+  Parent = None
+  PreviousSibling = None
+
+  class SimpleAxis(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  def attributes(self, QXmlNodeModelIndex):
+    """ attributes(self, QXmlNodeModelIndex) -> List[QXmlNodeModelIndex] """
+    return None
+
+  def baseUri(self, QXmlNodeModelIndex):
+    """ baseUri(self, QXmlNodeModelIndex) -> QUrl """
+    return None
+
+  def compareOrder(self, QXmlNodeModelIndex, QXmlNodeModelIndex):
+    """ compareOrder(self, QXmlNodeModelIndex, QXmlNodeModelIndex) -> QXmlNodeModelIndex.DocumentOrder """
+    return None
+
+  def createIndex(self, int):
+    """ createIndex(self, int) -> QXmlNodeModelIndex
+    createIndex(self, int, int) -> QXmlNodeModelIndex
+    createIndex(self, object, additionalData: int = 0) -> QXmlNodeModelIndex """
+    return None
+
+  def documentUri(self, QXmlNodeModelIndex):
+    """ documentUri(self, QXmlNodeModelIndex) -> QUrl """
+    return None
+
+  def elementById(self, QXmlName):
+    """ elementById(self, QXmlName) -> QXmlNodeModelIndex """
+    return None
+
+  def kind(self, QXmlNodeModelIndex):
+    """ kind(self, QXmlNodeModelIndex) -> QXmlNodeModelIndex.NodeKind """
+    return None
+
+  def name(self, QXmlNodeModelIndex):
+    """ name(self, QXmlNodeModelIndex) -> QXmlName """
+    return None
+
+  def namespaceBindings(self, QXmlNodeModelIndex):
+    """ namespaceBindings(self, QXmlNodeModelIndex) -> List[QXmlName] """
+    return None
+
+  def nextFromSimpleAxis(self, arg0, QXmlNodeModelIndex):
+    """ nextFromSimpleAxis(self, QAbstractXmlNodeModel.SimpleAxis, QXmlNodeModelIndex) -> QXmlNodeModelIndex """
+    return None
+
+  def nodesByIdref(self, QXmlName):
+    """ nodesByIdref(self, QXmlName) -> List[QXmlNodeModelIndex] """
+    return None
+
+  def root(self, QXmlNodeModelIndex):
+    """ root(self, QXmlNodeModelIndex) -> QXmlNodeModelIndex """
+    return None
+
+  def sourceLocation(self, QXmlNodeModelIndex):
+    """ sourceLocation(self, QXmlNodeModelIndex) -> QSourceLocation """
+    return None
+
+  def stringValue(self, QXmlNodeModelIndex):
+    """ stringValue(self, QXmlNodeModelIndex) -> str """
+    return ""
+
+  def typedValue(self, QXmlNodeModelIndex):
+    """ typedValue(self, QXmlNodeModelIndex) -> Any """
+    return None
+
+class QAbstractXmlReceiver(simplewrapper):
+  """ QAbstractXmlReceiver() """
+
+  def atomicValue(self, Any):
+    """ atomicValue(self, Any) """
+    pass
+
+  def attribute(self, QXmlName, str):
+    """ attribute(self, QXmlName, str) """
+    pass
+
+  def characters(self, str):
+    """ characters(self, str) """
+    pass
+
+  def comment(self, str):
+    """ comment(self, str) """
+    pass
+
+  def endDocument(self):
+    """ endDocument(self) """
+    pass
+
+  def endElement(self):
+    """ endElement(self) """
+    pass
+
+  def endOfSequence(self):
+    """ endOfSequence(self) """
+    pass
+
+  def namespaceBinding(self, QXmlName):
+    """ namespaceBinding(self, QXmlName) """
+    pass
+
+  def processingInstruction(self, QXmlName, str):
+    """ processingInstruction(self, QXmlName, str) """
+    pass
+
+  def startDocument(self):
+    """ startDocument(self) """
+    pass
+
+  def startElement(self, QXmlName):
+    """ startElement(self, QXmlName) """
+    pass
+
+  def startOfSequence(self):
+    """ startOfSequence(self) """
+    pass
+
+class QSimpleXmlNodeModel(QAbstractXmlNodeModel):
+  """ QSimpleXmlNodeModel(QXmlNamePool) """
+
+  FirstChild = None
+  NextSibling = None
+  Parent = None
+  PreviousSibling = None
+  def attributes():
+    pass
+
+  def baseUri(self, QXmlNodeModelIndex):
+    """ baseUri(self, QXmlNodeModelIndex) -> QUrl """
+    return None
+
+  def compareOrder(self, QXmlNodeModelIndex, QXmlNodeModelIndex):
+    """ compareOrder(self, QXmlNodeModelIndex, QXmlNodeModelIndex) -> QXmlNodeModelIndex.DocumentOrder """
+    return None
+
+  def createIndex():
+    pass
+
+  def documentUri(self, QXmlNodeModelIndex):
+    """ documentUri(self, QXmlNodeModelIndex) -> QUrl """
+    return None
+
+  def elementById(self, QXmlName):
+    """ elementById(self, QXmlName) -> QXmlNodeModelIndex """
+    return None
+
+  def kind(self, QXmlNodeModelIndex):
+    """ kind(self, QXmlNodeModelIndex) -> QXmlNodeModelIndex.NodeKind """
+    return None
+
+  def name(self, QXmlNodeModelIndex):
+    """ name(self, QXmlNodeModelIndex) -> QXmlName """
+    return None
+
+  def namePool(self):
+    """ namePool(self) -> QXmlNamePool """
+    return None
+
+  def namespaceBindings(self, QXmlNodeModelIndex):
+    """ namespaceBindings(self, QXmlNodeModelIndex) -> List[QXmlName] """
+    return None
+
+  def nextFromSimpleAxis():
+    pass
+
+  def nodesByIdref(self, QXmlName):
+    """ nodesByIdref(self, QXmlName) -> List[QXmlNodeModelIndex] """
+    return None
+
+  def root(self, QXmlNodeModelIndex):
+    """ root(self, QXmlNodeModelIndex) -> QXmlNodeModelIndex """
+    return None
+
+  def sourceLocation(self, QXmlNodeModelIndex):
+    """ sourceLocation(self, QXmlNodeModelIndex) -> QSourceLocation """
+    return None
+
+  def stringValue(self, QXmlNodeModelIndex):
+    """ stringValue(self, QXmlNodeModelIndex) -> str """
+    return ""
+
+  def typedValue(self, QXmlNodeModelIndex):
+    """ typedValue(self, QXmlNodeModelIndex) -> Any """
+    return None
+
+class QSourceLocation(simplewrapper):
+  """ QSourceLocation()
+  QSourceLocation(QSourceLocation)
+  QSourceLocation(QUrl, line: int = -1, column: int = -1) """
+
+  def column(self):
+    """ column(self) -> int """
+    return 1
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def line(self):
+    """ line(self) -> int """
+    return 1
+
+  def setColumn(self, int):
+    """ setColumn(self, int) """
+    pass
+
+  def setLine(self, int):
+    """ setLine(self, int) """
+    pass
+
+  def setUri(self, QUrl):
+    """ setUri(self, QUrl) """
+    pass
+
+  def uri(self):
+    """ uri(self) -> QUrl """
+    return None
+
+class QXmlFormatter(QXmlSerializer):
+  """ QXmlFormatter(QXmlQuery, QIODevice) """
+
+  def atomicValue(self, Any):
+    """ atomicValue(self, Any) """
+    pass
+
+  def attribute(self, QXmlName, str):
+    """ attribute(self, QXmlName, str) """
+    pass
+
+  def characters(self, str):
+    """ characters(self, str) """
+    pass
+
+  def codec(self):
+    """ codec(self) -> QTextCodec """
+    return None
+
+  def comment(self, str):
+    """ comment(self, str) """
+    pass
+
+  def endDocument(self):
+    """ endDocument(self) """
+    pass
+
+  def endElement(self):
+    """ endElement(self) """
+    pass
+
+  def endOfSequence(self):
+    """ endOfSequence(self) """
+    pass
+
+  def indentationDepth(self):
+    """ indentationDepth(self) -> int """
+    return 1
+
+  def namespaceBinding(self, QXmlName):
+    """ namespaceBinding(self, QXmlName) """
+    pass
+
+  def outputDevice(self):
+    """ outputDevice(self) -> QIODevice """
+    return None
+
+  def processingInstruction(self, QXmlName, str):
+    """ processingInstruction(self, QXmlName, str) """
+    pass
+
+  def setCodec(self, QTextCodec):
+    """ setCodec(self, QTextCodec) """
+    pass
+
+  def setIndentationDepth(self, int):
+    """ setIndentationDepth(self, int) """
+    pass
+
+  def startDocument(self):
+    """ startDocument(self) """
+    pass
+
+  def startElement(self, QXmlName):
+    """ startElement(self, QXmlName) """
+    pass
+
+  def startOfSequence(self):
+    """ startOfSequence(self) """
+    pass
+
+class QXmlItem(simplewrapper):
+  """ QXmlItem()
+  QXmlItem(QXmlItem)
+  QXmlItem(QXmlNodeModelIndex)
+  QXmlItem(Any) """
+
+  def isAtomicValue(self):
+    """ isAtomicValue(self) -> bool """
+    return None
+
+  def isNode(self):
+    """ isNode(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def toAtomicValue(self):
+    """ toAtomicValue(self) -> Any """
+    return None
+
+  def toNodeModelIndex(self):
+    """ toNodeModelIndex(self) -> QXmlNodeModelIndex """
+    return None
+
+class QXmlName(simplewrapper):
+  """ QXmlName()
+  QXmlName(QXmlNamePool, str, namespaceUri: str = '', prefix: str = '')
+  QXmlName(QXmlName) """
+
+  def fromClarkName(str, QXmlNamePool):
+    """ fromClarkName(str, QXmlNamePool) -> QXmlName """
+    return None
+
+  def isNCName(str):
+    """ isNCName(str) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def localName(self, QXmlNamePool):
+    """ localName(self, QXmlNamePool) -> str """
+    return ""
+
+  def namespaceUri(self, QXmlNamePool):
+    """ namespaceUri(self, QXmlNamePool) -> str """
+    return ""
+
+  def prefix(self, QXmlNamePool):
+    """ prefix(self, QXmlNamePool) -> str """
+    return ""
+
+  def toClarkName(self, QXmlNamePool):
+    """ toClarkName(self, QXmlNamePool) -> str """
+    return ""
+
+class QXmlNamePool(simplewrapper):
+  """ QXmlNamePool()
+  QXmlNamePool(QXmlNamePool) """
+
+  pass
+
+class QXmlNodeModelIndex(simplewrapper):
+  """ QXmlNodeModelIndex()
+  QXmlNodeModelIndex(QXmlNodeModelIndex) """
+
+  Attribute = None
+  Comment = None
+  Document = None
+
+  class DocumentOrder(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  Element = None
+  Follows = None
+  Is = None
+  Namespace = None
+
+  class NodeKind(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  Precedes = None
+  ProcessingInstruction = None
+  Text = None
+
+  def additionalData(self):
+    """ additionalData(self) -> int """
+    return 1
+
+  def data(self):
+    """ data(self) -> int """
+    return 1
+
+  def internalPointer(self):
+    """ internalPointer(self) -> object """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def model(self):
+    """ model(self) -> QAbstractXmlNodeModel """
+    return ""
+
+class QXmlQuery(simplewrapper):
+  """ QXmlQuery()
+  QXmlQuery(QXmlQuery)
+  QXmlQuery(QXmlNamePool)
+  QXmlQuery(QXmlQuery.QueryLanguage, pool: QXmlNamePool = QXmlNamePool()) """
+
+  class QueryLanguage(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  XQuery10 = None
+  XSLT20 = None
+
+  def bindVariable(self, QXmlName, QXmlItem):
+    """ bindVariable(self, QXmlName, QXmlItem)
+    bindVariable(self, QXmlName, QIODevice)
+    bindVariable(self, QXmlName, QXmlQuery)
+    bindVariable(self, str, QXmlItem)
+    bindVariable(self, str, QIODevice)
+    bindVariable(self, str, QXmlQuery) """
+    pass
+
+  def evaluateTo(self, QXmlResultItems):
+    """ evaluateTo(self, QXmlResultItems)
+    evaluateTo(self, QAbstractXmlReceiver) -> bool
+    evaluateTo(self, QIODevice) -> bool """
+    pass
+
+  def evaluateToString(self):
+    """ evaluateToString(self) -> str """
+    return ""
+
+  def evaluateToStringList(self):
+    """ evaluateToStringList(self) -> List[str] """
+    return ""
+
+  def initialTemplateName(self):
+    """ initialTemplateName(self) -> QXmlName """
+    return None
+
+  def isValid(self):
+    """ isValid(self) -> bool """
+    return None
+
+  def messageHandler(self):
+    """ messageHandler(self) -> QAbstractMessageHandler """
+    return ""
+
+  def namePool(self):
+    """ namePool(self) -> QXmlNamePool """
+    return None
+
+  def networkAccessManager(self):
+    """ networkAccessManager(self) -> QNetworkAccessManager """
+    return None
+
+  def queryLanguage(self):
+    """ queryLanguage(self) -> QXmlQuery.QueryLanguage """
+    return None
+
+  def setFocus(self, QXmlItem):
+    """ setFocus(self, QXmlItem)
+    setFocus(self, QUrl) -> bool
+    setFocus(self, QIODevice) -> bool
+    setFocus(self, str) -> bool """
+    pass
+
+  def setInitialTemplateName(self, QXmlName):
+    """ setInitialTemplateName(self, QXmlName)
+    setInitialTemplateName(self, str) """
+    pass
+
+  def setMessageHandler(self, QAbstractMessageHandler):
+    """ setMessageHandler(self, QAbstractMessageHandler) """
+    pass
+
+  def setNetworkAccessManager(self, QNetworkAccessManager):
+    """ setNetworkAccessManager(self, QNetworkAccessManager) """
+    pass
+
+  def setQuery():
+    """ setQuery(self, str, documentUri: QUrl = QUrl())
+    setQuery(self, QIODevice, documentUri: QUrl = QUrl())
+    setQuery(self, QUrl, baseUri: QUrl = QUrl()) """
+    pass
+
+  def setUriResolver(self, QAbstractUriResolver):
+    """ setUriResolver(self, QAbstractUriResolver) """
+    pass
+
+  def uriResolver(self):
+    """ uriResolver(self) -> QAbstractUriResolver """
+    return ""
+
+class QXmlResultItems(simplewrapper):
+  """ QXmlResultItems() """
+
+  def current(self):
+    """ current(self) -> QXmlItem """
+    return None
+
+  def hasError(self):
+    """ hasError(self) -> bool """
+    return None
+
+  def next(self):
+    """ next(self) -> QXmlItem """
+    return None
+
+class QXmlSchema(simplewrapper):
+  """ QXmlSchema()
+  QXmlSchema(QXmlSchema) """
+
+  def documentUri(self):
+    """ documentUri(self) -> QUrl """
+    return None
+
+  def isValid(self):
+    """ isValid(self) -> bool """
+    return None
+
+  def load(self, QUrl):
+    """ load(self, QUrl) -> bool
+    load(self, QIODevice, documentUri: QUrl = QUrl()) -> bool
+    load(self, Union[QByteArray, bytes, bytearray], documentUri: QUrl = QUrl()) -> bool """
+    return None
+
+  def messageHandler(self):
+    """ messageHandler(self) -> QAbstractMessageHandler """
+    return ""
+
+  def namePool(self):
+    """ namePool(self) -> QXmlNamePool """
+    return None
+
+  def networkAccessManager(self):
+    """ networkAccessManager(self) -> QNetworkAccessManager """
+    return None
+
+  def setMessageHandler(self, QAbstractMessageHandler):
+    """ setMessageHandler(self, QAbstractMessageHandler) """
+    pass
+
+  def setNetworkAccessManager(self, QNetworkAccessManager):
+    """ setNetworkAccessManager(self, QNetworkAccessManager) """
+    pass
+
+  def setUriResolver(self, QAbstractUriResolver):
+    """ setUriResolver(self, QAbstractUriResolver) """
+    pass
+
+  def uriResolver(self):
+    """ uriResolver(self) -> QAbstractUriResolver """
+    return ""
+
+class QXmlSchemaValidator(simplewrapper):
+  """ QXmlSchemaValidator()
+  QXmlSchemaValidator(QXmlSchema) """
+
+  def messageHandler(self):
+    """ messageHandler(self) -> QAbstractMessageHandler """
+    return ""
+
+  def namePool(self):
+    """ namePool(self) -> QXmlNamePool """
+    return None
+
+  def networkAccessManager(self):
+    """ networkAccessManager(self) -> QNetworkAccessManager """
+    return None
+
+  def schema(self):
+    """ schema(self) -> QXmlSchema """
+    return None
+
+  def setMessageHandler(self, QAbstractMessageHandler):
+    """ setMessageHandler(self, QAbstractMessageHandler) """
+    pass
+
+  def setNetworkAccessManager(self, QNetworkAccessManager):
+    """ setNetworkAccessManager(self, QNetworkAccessManager) """
+    pass
+
+  def setSchema(self, QXmlSchema):
+    """ setSchema(self, QXmlSchema) """
+    pass
+
+  def setUriResolver(self, QAbstractUriResolver):
+    """ setUriResolver(self, QAbstractUriResolver) """
+    pass
+
+  def uriResolver(self):
+    """ uriResolver(self) -> QAbstractUriResolver """
+    return ""
+
+  def validate(self, QUrl):
+    """ validate(self, QUrl) -> bool
+    validate(self, QIODevice, documentUri: QUrl = QUrl()) -> bool
+    validate(self, Union[QByteArray, bytes, bytearray], documentUri: QUrl = QUrl()) -> bool """
+    return None
+
+class QXmlSerializer(QAbstractXmlReceiver):
+  """ QXmlSerializer(QXmlQuery, QIODevice) """
+
+  def atomicValue(self, Any):
+    """ atomicValue(self, Any) """
+    pass
+
+  def attribute(self, QXmlName, str):
+    """ attribute(self, QXmlName, str) """
+    pass
+
+  def characters(self, str):
+    """ characters(self, str) """
+    pass
+
+  def codec(self):
+    """ codec(self) -> QTextCodec """
+    return None
+
+  def comment(self, str):
+    """ comment(self, str) """
+    pass
+
+  def endDocument(self):
+    """ endDocument(self) """
+    pass
+
+  def endElement(self):
+    """ endElement(self) """
+    pass
+
+  def endOfSequence(self):
+    """ endOfSequence(self) """
+    pass
+
+  def namespaceBinding(self, QXmlName):
+    """ namespaceBinding(self, QXmlName) """
+    pass
+
+  def outputDevice(self):
+    """ outputDevice(self) -> QIODevice """
+    return None
+
+  def processingInstruction(self, QXmlName, str):
+    """ processingInstruction(self, QXmlName, str) """
+    pass
+
+  def setCodec(self, QTextCodec):
+    """ setCodec(self, QTextCodec) """
+    pass
+
+  def startDocument(self):
+    """ startDocument(self) """
+    pass
+
+  def startElement(self, QXmlName):
+    """ startElement(self, QXmlName) """
+    pass
+
+  def startOfSequence(self):
+    """ startOfSequence(self) """
+    pass
+
+__doc__ = None
+__file__ = 'C:\\Users\\Rupka\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\PyQt5\\QtXmlPatterns.pyd'
+__loader__ = None
+__name__ = 'PyQt5.QtXmlPatterns'
+__package__ = 'PyQt5'
+__spec__ = None
+

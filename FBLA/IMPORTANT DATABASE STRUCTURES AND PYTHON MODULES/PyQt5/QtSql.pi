@@ -1,0 +1,3528 @@
+# coding: utf-8
+# AUTO-GENERATED FILE -- DO NOT EDIT
+
+
+class QSql(simplewrapper):
+
+  AfterLastRow = None
+  AllTables = None
+  BeforeFirstRow = None
+  Binary = None
+  HighPrecision = None
+  In = None
+  InOut = None
+
+  class Location(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  LowPrecisionDouble = None
+  LowPrecisionInt32 = None
+  LowPrecisionInt64 = None
+
+  class NumericalPrecisionPolicy(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  Out = None
+
+  class ParamType(simplewrapper):
+    """ QSql.ParamType()
+    QSql.ParamType(Union[QSql.ParamType, QSql.ParamTypeFlag])
+    QSql.ParamType(QSql.ParamType) """
+
+    pass
+
+  class ParamTypeFlag(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  SystemTables = None
+
+  class TableType(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  Tables = None
+  Views = None
+
+class QSqlDatabase(simplewrapper):
+  """ QSqlDatabase()
+  QSqlDatabase(QSqlDatabase)
+  QSqlDatabase(str)
+  QSqlDatabase(QSqlDriver) """
+
+  def addDatabase(str, arg0=None):
+    """ addDatabase(str, connectionName: str = '') -> QSqlDatabase
+    addDatabase(QSqlDriver, connectionName: str = '') -> QSqlDatabase """
+    return None
+
+  def cloneDatabase(QSqlDatabase, str):
+    """ cloneDatabase(QSqlDatabase, str) -> QSqlDatabase
+    cloneDatabase(str, str) -> QSqlDatabase """
+    return None
+
+  def close(self):
+    """ close(self) """
+    pass
+
+  def commit(self):
+    """ commit(self) -> bool """
+    return None
+
+  def connectOptions(self):
+    """ connectOptions(self) -> str """
+    return ""
+
+  def connectionName(self):
+    """ connectionName(self) -> str """
+    return ""
+
+  def connectionNames():
+    """ connectionNames() -> List[str] """
+    return ""
+
+  def contains(arg0=None):
+    """ contains(connectionName: str = '') -> bool """
+    return None
+
+  def database(arg0=None, arg1=None):
+    """ database(connectionName: str = '', open: bool = True) -> QSqlDatabase """
+    return None
+
+  def databaseName(self):
+    """ databaseName(self) -> str """
+    return ""
+
+  def driver(self):
+    """ driver(self) -> QSqlDriver """
+    return None
+
+  def driverName(self):
+    """ driverName(self) -> str """
+    return ""
+
+  def drivers():
+    """ drivers() -> List[str] """
+    return ""
+
+  def exec(self, arg0=None):
+    """ exec(self, query: str = '') -> QSqlQuery """
+    return None
+
+  def exec_(self, arg0=None):
+    """ exec_(self, query: str = '') -> QSqlQuery """
+    return None
+
+  def hostName(self):
+    """ hostName(self) -> str """
+    return ""
+
+  def isDriverAvailable(str):
+    """ isDriverAvailable(str) -> bool """
+    return None
+
+  def isOpen(self):
+    """ isOpen(self) -> bool """
+    return None
+
+  def isOpenError(self):
+    """ isOpenError(self) -> bool """
+    return None
+
+  def isValid(self):
+    """ isValid(self) -> bool """
+    return None
+
+  def lastError(self):
+    """ lastError(self) -> QSqlError """
+    return None
+
+  def numericalPrecisionPolicy(self):
+    """ numericalPrecisionPolicy(self) -> QSql.NumericalPrecisionPolicy """
+    return None
+
+  def open(self):
+    """ open(self) -> bool
+    open(self, str, str) -> bool """
+    return None
+
+  def password(self):
+    """ password(self) -> str """
+    return ""
+
+  def port(self):
+    """ port(self) -> int """
+    return 1
+
+  def primaryIndex(self, str):
+    """ primaryIndex(self, str) -> QSqlIndex """
+    return None
+
+  def record(self, str):
+    """ record(self, str) -> QSqlRecord """
+    return None
+
+  def registerSqlDriver(str, QSqlDriverCreatorBase):
+    """ registerSqlDriver(str, QSqlDriverCreatorBase) """
+    pass
+
+  def removeDatabase(str):
+    """ removeDatabase(str) """
+    pass
+
+  def rollback(self):
+    """ rollback(self) -> bool """
+    return None
+
+  def setConnectOptions():
+    """ setConnectOptions(self, options: str = '') """
+    pass
+
+  def setDatabaseName(self, str):
+    """ setDatabaseName(self, str) """
+    pass
+
+  def setHostName(self, str):
+    """ setHostName(self, str) """
+    pass
+
+  def setNumericalPrecisionPolicy(self, arg0):
+    """ setNumericalPrecisionPolicy(self, QSql.NumericalPrecisionPolicy) """
+    pass
+
+  def setPassword(self, str):
+    """ setPassword(self, str) """
+    pass
+
+  def setPort(self, int):
+    """ setPort(self, int) """
+    pass
+
+  def setUserName(self, str):
+    """ setUserName(self, str) """
+    pass
+
+  def tables(self, arg0=None):
+    """ tables(self, type: QSql.TableType = QSql.Tables) -> List[str] """
+    return ""
+
+  def transaction(self):
+    """ transaction(self) -> bool """
+    return None
+
+  def userName(self):
+    """ userName(self) -> str """
+    return ""
+
+class QSqlDriver(QObject):
+  """ QSqlDriver(parent: QObject = None) """
+
+  BLOB = None
+  BatchOperations = None
+  DB2 = None
+
+  class DbmsType(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  DeleteStatement = None
+
+  class DriverFeature(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  EventNotifications = None
+  FieldName = None
+  FinishQuery = None
+
+  class IdentifierType(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  InsertStatement = None
+  Interbase = None
+  LastInsertId = None
+  LowPrecisionNumbers = None
+  MSSqlServer = None
+  MultipleResultSets = None
+  MySqlServer = None
+  NamedPlaceholders = None
+
+  class NotificationSource(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  Oracle = None
+  OtherSource = None
+  PositionalPlaceholders = None
+  PostgreSQL = None
+  PreparedQueries = None
+  QuerySize = None
+  SQLite = None
+  SelectStatement = None
+  SelfSource = None
+  SimpleLocking = None
+
+  class StatementType(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  Sybase = None
+  TableName = None
+  Transactions = None
+  Unicode = None
+  UnknownDbms = None
+  UnknownSource = None
+  UpdateStatement = None
+  WhereStatement = None
+
+  def beginTransaction(self):
+    """ beginTransaction(self) -> bool """
+    return None
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def close(self):
+    """ close(self) """
+    pass
+
+  def commitTransaction(self):
+    """ commitTransaction(self) -> bool """
+    return None
+
+  def connectNotify():
+    pass
+
+  def createResult(self):
+    """ createResult(self) -> QSqlResult """
+    return None
+
+  def customEvent():
+    pass
+
+  def dbmsType(self):
+    """ dbmsType(self) -> QSqlDriver.DbmsType """
+    return None
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def escapeIdentifier(self, str, arg0):
+    """ escapeIdentifier(self, str, QSqlDriver.IdentifierType) -> str """
+    return ""
+
+  def event(self, QEvent):
+    """ event(self, QEvent) -> bool """
+    return None
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def formatValue(self, QSqlField, arg0=None):
+    """ formatValue(self, QSqlField, trimStrings: bool = False) -> str """
+    return ""
+
+  def handle(self):
+    """ handle(self) -> Any """
+    return None
+
+  def hasFeature(self, arg0):
+    """ hasFeature(self, QSqlDriver.DriverFeature) -> bool """
+    return None
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isIdentifierEscaped(self, str, arg0):
+    """ isIdentifierEscaped(self, str, QSqlDriver.IdentifierType) -> bool """
+    return None
+
+  def isOpen(self):
+    """ isOpen(self) -> bool """
+    return None
+
+  def isOpenError(self):
+    """ isOpenError(self) -> bool """
+    return None
+
+  def isSignalConnected():
+    pass
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def lastError(self):
+    """ lastError(self) -> QSqlError """
+    return None
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def notification(self, str):
+    """ notification(self, str) [signal]
+    notification(self, str, QSqlDriver.NotificationSource, Any) [signal] """
+    pass
+
+  def numericalPrecisionPolicy(self):
+    """ numericalPrecisionPolicy(self) -> QSql.NumericalPrecisionPolicy """
+    return None
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def open(self, str, arg0=None, arg1=None, arg2=None, arg3=None, arg4=None):
+    """ open(self, str, user: str = '', password: str = '', host: str = '', port: int = -1, options: str = '') -> bool """
+    return None
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def primaryIndex(self, str):
+    """ primaryIndex(self, str) -> QSqlIndex """
+    return None
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def receivers():
+    pass
+
+  def record(self, str):
+    """ record(self, str) -> QSqlRecord """
+    return None
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def rollbackTransaction(self):
+    """ rollbackTransaction(self) -> bool """
+    return None
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setLastError(self, QSqlError):
+    """ setLastError(self, QSqlError) """
+    pass
+
+  def setNumericalPrecisionPolicy(self, arg0):
+    """ setNumericalPrecisionPolicy(self, QSql.NumericalPrecisionPolicy) """
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setOpen(self, bool):
+    """ setOpen(self, bool) """
+    pass
+
+  def setOpenError(self, bool):
+    """ setOpenError(self, bool) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def sqlStatement(self, arg0, str, QSqlRecord, bool):
+    """ sqlStatement(self, QSqlDriver.StatementType, str, QSqlRecord, bool) -> str """
+    return ""
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def stripDelimiters(self, str, arg0):
+    """ stripDelimiters(self, str, QSqlDriver.IdentifierType) -> str """
+    return ""
+
+  def subscribeToNotification(self, str):
+    """ subscribeToNotification(self, str) -> bool """
+    return None
+
+  def subscribedToNotifications(self):
+    """ subscribedToNotifications(self) -> List[str] """
+    return ""
+
+  def tables(self, arg0):
+    """ tables(self, QSql.TableType) -> List[str] """
+    return ""
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+  def unsubscribeFromNotification(self, str):
+    """ unsubscribeFromNotification(self, str) -> bool """
+    return None
+
+class QSqlDriverCreatorBase(wrapper):
+  """ QSqlDriverCreatorBase()
+  QSqlDriverCreatorBase(QSqlDriverCreatorBase) """
+
+  def createObject(self):
+    """ createObject(self) -> QSqlDriver """
+    return None
+
+class QSqlError(simplewrapper):
+  """ QSqlError(driverText: str = '', databaseText: str = '', type: QSqlError.ErrorType = QSqlError.NoError, errorCode: str = '')
+  QSqlError(str, str, QSqlError.ErrorType, int)
+  QSqlError(QSqlError) """
+
+  ConnectionError = None
+
+  class ErrorType(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  NoError = None
+  StatementError = None
+  TransactionError = None
+  UnknownError = None
+
+  def databaseText(self):
+    """ databaseText(self) -> str """
+    return ""
+
+  def driverText(self):
+    """ driverText(self) -> str """
+    return ""
+
+  def isValid(self):
+    """ isValid(self) -> bool """
+    return None
+
+  def nativeErrorCode(self):
+    """ nativeErrorCode(self) -> str """
+    return ""
+
+  def number(self):
+    """ number(self) -> int """
+    return 1
+
+  def setDatabaseText(self, str):
+    """ setDatabaseText(self, str) """
+    pass
+
+  def setDriverText(self, str):
+    """ setDriverText(self, str) """
+    pass
+
+  def setNumber(self, int):
+    """ setNumber(self, int) """
+    pass
+
+  def setType(self, arg0):
+    """ setType(self, QSqlError.ErrorType) """
+    pass
+
+  def swap(self, QSqlError):
+    """ swap(self, QSqlError) """
+    pass
+
+  def text(self):
+    """ text(self) -> str """
+    return ""
+
+  def type(self):
+    """ type(self) -> QSqlError.ErrorType """
+    return None
+
+class QSqlField(simplewrapper):
+  """ QSqlField(fieldName: str = '', type: QVariant.Type = QVariant.Invalid)
+  QSqlField(str, QVariant.Type, str)
+  QSqlField(QSqlField) """
+
+  Optional = None
+  Required = None
+
+  class RequiredStatus(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  Unknown = None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def defaultValue(self):
+    """ defaultValue(self) -> Any """
+    return None
+
+  def isAutoValue(self):
+    """ isAutoValue(self) -> bool """
+    return None
+
+  def isGenerated(self):
+    """ isGenerated(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isReadOnly(self):
+    """ isReadOnly(self) -> bool """
+    return None
+
+  def isValid(self):
+    """ isValid(self) -> bool """
+    return None
+
+  def length(self):
+    """ length(self) -> int """
+    return 1
+
+  def name(self):
+    """ name(self) -> str """
+    return ""
+
+  def precision(self):
+    """ precision(self) -> int """
+    return 1
+
+  def requiredStatus(self):
+    """ requiredStatus(self) -> QSqlField.RequiredStatus """
+    return None
+
+  def setAutoValue(self, bool):
+    """ setAutoValue(self, bool) """
+    pass
+
+  def setDefaultValue(self, Any):
+    """ setDefaultValue(self, Any) """
+    pass
+
+  def setGenerated(self, bool):
+    """ setGenerated(self, bool) """
+    pass
+
+  def setLength(self, int):
+    """ setLength(self, int) """
+    pass
+
+  def setName(self, str):
+    """ setName(self, str) """
+    pass
+
+  def setPrecision(self, int):
+    """ setPrecision(self, int) """
+    pass
+
+  def setReadOnly(self, bool):
+    """ setReadOnly(self, bool) """
+    pass
+
+  def setRequired(self, bool):
+    """ setRequired(self, bool) """
+    pass
+
+  def setRequiredStatus(self, arg0):
+    """ setRequiredStatus(self, QSqlField.RequiredStatus) """
+    pass
+
+  def setSqlType(self, int):
+    """ setSqlType(self, int) """
+    pass
+
+  def setTableName(self, str):
+    """ setTableName(self, str) """
+    pass
+
+  def setType(self, arg0):
+    """ setType(self, QVariant.Type) """
+    pass
+
+  def setValue(self, Any):
+    """ setValue(self, Any) """
+    pass
+
+  def tableName(self):
+    """ tableName(self) -> str """
+    return ""
+
+  def type(self):
+    """ type(self) -> QVariant.Type """
+    return None
+
+  def typeID(self):
+    """ typeID(self) -> int """
+    return 1
+
+  def value(self):
+    """ value(self) -> Any """
+    return None
+
+class QSqlIndex(QSqlRecord):
+  """ QSqlIndex(cursorName: str = '', name: str = '')
+  QSqlIndex(QSqlIndex) """
+
+  def append(self, QSqlField):
+    """ append(self, QSqlField)
+    append(self, QSqlField, bool) """
+    pass
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def clearValues(self):
+    """ clearValues(self) """
+    pass
+
+  def contains(self, str):
+    """ contains(self, str) -> bool """
+    return None
+
+  def count(self):
+    """ count(self) -> int """
+    return 1
+
+  def cursorName(self):
+    """ cursorName(self) -> str """
+    return ""
+
+  def field(self, int):
+    """ field(self, int) -> QSqlField
+    field(self, str) -> QSqlField """
+    return None
+
+  def fieldName(self, int):
+    """ fieldName(self, int) -> str """
+    return ""
+
+  def indexOf(self, str):
+    """ indexOf(self, str) -> int """
+    return 1
+
+  def insert(self, int, QSqlField):
+    """ insert(self, int, QSqlField) """
+    pass
+
+  def isDescending(self, int):
+    """ isDescending(self, int) -> bool """
+    return None
+
+  def isEmpty(self):
+    """ isEmpty(self) -> bool """
+    return None
+
+  def isGenerated(self, int):
+    """ isGenerated(self, int) -> bool
+    isGenerated(self, str) -> bool """
+    return None
+
+  def isNull(self, int):
+    """ isNull(self, int) -> bool
+    isNull(self, str) -> bool """
+    return None
+
+  def keyValues(self, QSqlRecord):
+    """ keyValues(self, QSqlRecord) -> QSqlRecord """
+    return None
+
+  def name(self):
+    """ name(self) -> str """
+    return ""
+
+  def remove(self, int):
+    """ remove(self, int) """
+    pass
+
+  def replace(self, int, QSqlField):
+    """ replace(self, int, QSqlField) """
+    pass
+
+  def setCursorName(self, str):
+    """ setCursorName(self, str) """
+    pass
+
+  def setDescending(self, int, bool):
+    """ setDescending(self, int, bool) """
+    pass
+
+  def setGenerated(self, str, bool):
+    """ setGenerated(self, str, bool)
+    setGenerated(self, int, bool) """
+    pass
+
+  def setName(self, str):
+    """ setName(self, str) """
+    pass
+
+  def setNull(self, int):
+    """ setNull(self, int)
+    setNull(self, str) """
+    pass
+
+  def setValue(self, int, Any):
+    """ setValue(self, int, Any)
+    setValue(self, str, Any) """
+    pass
+
+  def value(self, int):
+    """ value(self, int) -> Any
+    value(self, str) -> Any """
+    return None
+
+class QSqlQuery(simplewrapper):
+  """ QSqlQuery(QSqlResult)
+  QSqlQuery(query: str = '', db: QSqlDatabase = QSqlDatabase())
+  QSqlQuery(QSqlDatabase)
+  QSqlQuery(QSqlQuery) """
+
+  class BatchExecutionMode(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  ValuesAsColumns = None
+  ValuesAsRows = None
+
+  def addBindValue():
+    """ addBindValue(self, Any, type: Union[QSql.ParamType, QSql.ParamTypeFlag] = QSql.In) """
+    pass
+
+  def at(self):
+    """ at(self) -> int """
+    return 1
+
+  def bindValue():
+    """ bindValue(self, str, Any, type: Union[QSql.ParamType, QSql.ParamTypeFlag] = QSql.In)
+    bindValue(self, int, Any, type: Union[QSql.ParamType, QSql.ParamTypeFlag] = QSql.In) """
+    pass
+
+  def boundValue(self, str):
+    """ boundValue(self, str) -> Any
+    boundValue(self, int) -> Any """
+    return None
+
+  def boundValues(self):
+    """ boundValues(self) -> Dict[str, Any] """
+    return ""
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def driver(self):
+    """ driver(self) -> QSqlDriver """
+    return None
+
+  def exec(self, str):
+    """ exec(self, str) -> bool
+    exec(self) -> bool """
+    return None
+
+  def execBatch(self, arg0=None):
+    """ execBatch(self, mode: QSqlQuery.BatchExecutionMode = QSqlQuery.ValuesAsRows) -> bool """
+    return None
+
+  def exec_(self, str):
+    """ exec_(self, str) -> bool
+    exec_(self) -> bool """
+    return None
+
+  def executedQuery(self):
+    """ executedQuery(self) -> str """
+    return ""
+
+  def finish(self):
+    """ finish(self) """
+    pass
+
+  def first(self):
+    """ first(self) -> bool """
+    return None
+
+  def isActive(self):
+    """ isActive(self) -> bool """
+    return None
+
+  def isForwardOnly(self):
+    """ isForwardOnly(self) -> bool """
+    return None
+
+  def isNull(self, int):
+    """ isNull(self, int) -> bool
+    isNull(self, str) -> bool """
+    return None
+
+  def isSelect(self):
+    """ isSelect(self) -> bool """
+    return None
+
+  def isValid(self):
+    """ isValid(self) -> bool """
+    return None
+
+  def last(self):
+    """ last(self) -> bool """
+    return None
+
+  def lastError(self):
+    """ lastError(self) -> QSqlError """
+    return None
+
+  def lastInsertId(self):
+    """ lastInsertId(self) -> Any """
+    return None
+
+  def lastQuery(self):
+    """ lastQuery(self) -> str """
+    return ""
+
+  def next(self):
+    """ next(self) -> bool """
+    return None
+
+  def nextResult(self):
+    """ nextResult(self) -> bool """
+    return None
+
+  def numRowsAffected(self):
+    """ numRowsAffected(self) -> int """
+    return 1
+
+  def numericalPrecisionPolicy(self):
+    """ numericalPrecisionPolicy(self) -> QSql.NumericalPrecisionPolicy """
+    return None
+
+  def prepare(self, str):
+    """ prepare(self, str) -> bool """
+    return None
+
+  def previous(self):
+    """ previous(self) -> bool """
+    return None
+
+  def record(self):
+    """ record(self) -> QSqlRecord """
+    return None
+
+  def result(self):
+    """ result(self) -> QSqlResult """
+    return None
+
+  def seek(self, int, arg0=None):
+    """ seek(self, int, relative: bool = False) -> bool """
+    return None
+
+  def setForwardOnly(self, bool):
+    """ setForwardOnly(self, bool) """
+    pass
+
+  def setNumericalPrecisionPolicy(self, arg0):
+    """ setNumericalPrecisionPolicy(self, QSql.NumericalPrecisionPolicy) """
+    pass
+
+  def size(self):
+    """ size(self) -> int """
+    return 1
+
+  def value(self, int):
+    """ value(self, int) -> Any
+    value(self, str) -> Any """
+    return None
+
+class QSqlQueryModel(QAbstractTableModel):
+  """ QSqlQueryModel(parent: QObject = None) """
+
+  class CheckIndexOption(IntEnum):
+    """ An enumeration. """
+
+    DoNotUseParent = None
+    IndexIsValid = None
+    NoOption = None
+    ParentIsInvalid = None
+
+  class CheckIndexOptions(simplewrapper):
+    """ QAbstractItemModel.CheckIndexOptions()
+    QAbstractItemModel.CheckIndexOptions(Union[QAbstractItemModel.CheckIndexOptions, QAbstractItemModel.CheckIndexOption])
+    QAbstractItemModel.CheckIndexOptions(QAbstractItemModel.CheckIndexOptions) """
+
+    pass
+
+  HorizontalSortHint = None
+
+  class LayoutChangeHint(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  NoLayoutChangeHint = None
+  VerticalSortHint = None
+
+  def beginInsertColumns(self, QModelIndex, int, int):
+    """ beginInsertColumns(self, QModelIndex, int, int) """
+    pass
+
+  def beginInsertRows(self, QModelIndex, int, int):
+    """ beginInsertRows(self, QModelIndex, int, int) """
+    pass
+
+  def beginMoveColumns():
+    pass
+
+  def beginMoveRows():
+    pass
+
+  def beginRemoveColumns(self, QModelIndex, int, int):
+    """ beginRemoveColumns(self, QModelIndex, int, int) """
+    pass
+
+  def beginRemoveRows(self, QModelIndex, int, int):
+    """ beginRemoveRows(self, QModelIndex, int, int) """
+    pass
+
+  def beginResetModel(self):
+    """ beginResetModel(self) """
+    pass
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def buddy(self, QModelIndex):
+    """ buddy(self, QModelIndex) -> QModelIndex """
+    return None
+
+  def canDropMimeData(self, QMimeData, arg0, int, int, QModelIndex):
+    """ canDropMimeData(self, QMimeData, Qt.DropAction, int, int, QModelIndex) -> bool """
+    return None
+
+  def canFetchMore(self, arg0=None):
+    """ canFetchMore(self, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def changePersistentIndex():
+    pass
+
+  def changePersistentIndexList():
+    pass
+
+  def checkIndex(self, QModelIndex, arg0=None, arg1=None):
+    """ checkIndex(self, QModelIndex, options: Union[QAbstractItemModel.CheckIndexOptions, QAbstractItemModel.CheckIndexOption] = QAbstractItemModel.CheckIndexOption.NoOption) -> bool """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def columnCount(self, arg0=None):
+    """ columnCount(self, parent: QModelIndex = QModelIndex()) -> int """
+    return 1
+
+  def columnsAboutToBeInserted(self, QModelIndex, int, int):
+    """ columnsAboutToBeInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def columnsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ columnsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def columnsAboutToBeRemoved(self, QModelIndex, int, int):
+    """ columnsAboutToBeRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def columnsInserted(self, QModelIndex, int, int):
+    """ columnsInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def columnsMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ columnsMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def columnsRemoved(self, QModelIndex, int, int):
+    """ columnsRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def connectNotify():
+    pass
+
+  def createIndex():
+    pass
+
+  def customEvent():
+    pass
+
+  def data(self, QModelIndex, arg0=None):
+    """ data(self, QModelIndex, role: int = Qt.DisplayRole) -> Any """
+    return None
+
+  def dataChanged():
+    """ dataChanged(self, QModelIndex, QModelIndex, roles: Iterable[int] = []) [signal] """
+    pass
+
+  def decodeData():
+    pass
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dropMimeData(self, QMimeData, arg0, int, int, QModelIndex):
+    """ dropMimeData(self, QMimeData, Qt.DropAction, int, int, QModelIndex) -> bool """
+    return None
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def encodeData():
+    pass
+
+  def endInsertColumns(self):
+    """ endInsertColumns(self) """
+    pass
+
+  def endInsertRows(self):
+    """ endInsertRows(self) """
+    pass
+
+  def endMoveColumns():
+    pass
+
+  def endMoveRows():
+    pass
+
+  def endRemoveColumns(self):
+    """ endRemoveColumns(self) """
+    pass
+
+  def endRemoveRows(self):
+    """ endRemoveRows(self) """
+    pass
+
+  def endResetModel(self):
+    """ endResetModel(self) """
+    pass
+
+  def event(self, QEvent):
+    """ event(self, QEvent) -> bool """
+    return None
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def fetchMore():
+    """ fetchMore(self, parent: QModelIndex = QModelIndex()) """
+    pass
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def flags(self, QModelIndex):
+    """ flags(self, QModelIndex) -> Qt.ItemFlags """
+    return None
+
+  def hasChildren():
+    pass
+
+  def hasIndex(self, int, int, arg0=None):
+    """ hasIndex(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def headerData(self, int, arg0, arg1=None):
+    """ headerData(self, int, Qt.Orientation, role: int = Qt.DisplayRole) -> Any """
+    return None
+
+  def headerDataChanged(self, arg0, int, int):
+    """ headerDataChanged(self, Qt.Orientation, int, int) [signal] """
+    pass
+
+  def index(self, int, int, arg0=None):
+    """ index(self, int, int, parent: QModelIndex = QModelIndex()) -> QModelIndex """
+    return None
+
+  def indexInQuery(self, QModelIndex):
+    """ indexInQuery(self, QModelIndex) -> QModelIndex """
+    return None
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def insertColumn(self, int, arg0=None):
+    """ insertColumn(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def insertColumns(self, int, int, arg0=None):
+    """ insertColumns(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def insertRow(self, int, arg0=None):
+    """ insertRow(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def insertRows(self, int, int, arg0=None):
+    """ insertRows(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isSignalConnected():
+    pass
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def itemData(self, QModelIndex):
+    """ itemData(self, QModelIndex) -> Dict[int, Any] """
+    return 1
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def lastError(self):
+    """ lastError(self) -> QSqlError """
+    return None
+
+  def layoutAboutToBeChanged():
+    """ layoutAboutToBeChanged(self, parents: Iterable[QPersistentModelIndex] = [], hint: QAbstractItemModel.LayoutChangeHint = QAbstractItemModel.NoLayoutChangeHint) [signal] """
+    pass
+
+  def layoutChanged():
+    """ layoutChanged(self, parents: Iterable[QPersistentModelIndex] = [], hint: QAbstractItemModel.LayoutChangeHint = QAbstractItemModel.NoLayoutChangeHint) [signal] """
+    pass
+
+  def match(self, QModelIndex, int, Any, arg0=None, arg1=None, arg2=None):
+    """ match(self, QModelIndex, int, Any, hits: int = 1, flags: Union[Qt.MatchFlags, Qt.MatchFlag] = Qt.MatchStartsWith|Qt.MatchWrap) -> List[QModelIndex] """
+    return None
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def mimeData(self, IterableQModelIndex=None):
+    """ mimeData(self, Iterable[QModelIndex]) -> QMimeData """
+    return None
+
+  def mimeTypes(self):
+    """ mimeTypes(self) -> List[str] """
+    return ""
+
+  def modelAboutToBeReset(self):
+    """ modelAboutToBeReset(self) [signal] """
+    pass
+
+  def modelReset(self):
+    """ modelReset(self) [signal] """
+    pass
+
+  def moveColumn(self, QModelIndex, int, QModelIndex, int):
+    """ moveColumn(self, QModelIndex, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveColumns(self, QModelIndex, int, int, QModelIndex, int):
+    """ moveColumns(self, QModelIndex, int, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveRow(self, QModelIndex, int, QModelIndex, int):
+    """ moveRow(self, QModelIndex, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveRows(self, QModelIndex, int, int, QModelIndex, int):
+    """ moveRows(self, QModelIndex, int, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def persistentIndexList():
+    pass
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def query(self):
+    """ query(self) -> QSqlQuery """
+    return None
+
+  def queryChange(self):
+    """ queryChange(self) """
+    pass
+
+  def receivers():
+    pass
+
+  def record(self, int):
+    """ record(self, int) -> QSqlRecord
+    record(self) -> QSqlRecord """
+    return None
+
+  def removeColumn(self, int, arg0=None):
+    """ removeColumn(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def removeColumns(self, int, int, arg0=None):
+    """ removeColumns(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def removeRow(self, int, arg0=None):
+    """ removeRow(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def removeRows(self, int, int, arg0=None):
+    """ removeRows(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def resetInternalData():
+    pass
+
+  def revert(self):
+    """ revert(self) """
+    pass
+
+  def roleNames(self):
+    """ roleNames(self) -> Dict[int, QByteArray] """
+    return 1
+
+  def rowCount(self, arg0=None):
+    """ rowCount(self, parent: QModelIndex = QModelIndex()) -> int """
+    return 1
+
+  def rowsAboutToBeInserted(self, QModelIndex, int, int):
+    """ rowsAboutToBeInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def rowsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ rowsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def rowsAboutToBeRemoved(self, QModelIndex, int, int):
+    """ rowsAboutToBeRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def rowsInserted(self, QModelIndex, int, int):
+    """ rowsInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def rowsMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ rowsMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def rowsRemoved(self, QModelIndex, int, int):
+    """ rowsRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setData(self, QModelIndex, Any, arg0=None):
+    """ setData(self, QModelIndex, Any, role: int = Qt.EditRole) -> bool """
+    return None
+
+  def setHeaderData(self, int, arg0, Any, arg1=None):
+    """ setHeaderData(self, int, Qt.Orientation, Any, role: int = Qt.EditRole) -> bool """
+    return None
+
+  def setItemData(self, QModelIndex, Dictint=None, Any=None):
+    """ setItemData(self, QModelIndex, Dict[int, Any]) -> bool """
+    return None
+
+  def setLastError(self, QSqlError):
+    """ setLastError(self, QSqlError) """
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def setQuery(self, QSqlQuery):
+    """ setQuery(self, QSqlQuery)
+    setQuery(self, str, db: QSqlDatabase = QSqlDatabase()) """
+    pass
+
+  def sibling(self, int, int, QModelIndex):
+    """ sibling(self, int, int, QModelIndex) -> QModelIndex """
+    return None
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def sort():
+    """ sort(self, int, order: Qt.SortOrder = Qt.AscendingOrder) """
+    pass
+
+  def span(self, QModelIndex):
+    """ span(self, QModelIndex) -> QSize """
+    return None
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def submit(self):
+    """ submit(self) -> bool """
+    return None
+
+  def supportedDragActions(self):
+    """ supportedDragActions(self) -> Qt.DropActions """
+    return None
+
+  def supportedDropActions(self):
+    """ supportedDropActions(self) -> Qt.DropActions """
+    return None
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+class QSqlRecord(simplewrapper):
+  """ QSqlRecord()
+  QSqlRecord(QSqlRecord) """
+
+  def append(self, QSqlField):
+    """ append(self, QSqlField) """
+    pass
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def clearValues(self):
+    """ clearValues(self) """
+    pass
+
+  def contains(self, str):
+    """ contains(self, str) -> bool """
+    return None
+
+  def count(self):
+    """ count(self) -> int """
+    return 1
+
+  def field(self, int):
+    """ field(self, int) -> QSqlField
+    field(self, str) -> QSqlField """
+    return None
+
+  def fieldName(self, int):
+    """ fieldName(self, int) -> str """
+    return ""
+
+  def indexOf(self, str):
+    """ indexOf(self, str) -> int """
+    return 1
+
+  def insert(self, int, QSqlField):
+    """ insert(self, int, QSqlField) """
+    pass
+
+  def isEmpty(self):
+    """ isEmpty(self) -> bool """
+    return None
+
+  def isGenerated(self, int):
+    """ isGenerated(self, int) -> bool
+    isGenerated(self, str) -> bool """
+    return None
+
+  def isNull(self, int):
+    """ isNull(self, int) -> bool
+    isNull(self, str) -> bool """
+    return None
+
+  def keyValues(self, QSqlRecord):
+    """ keyValues(self, QSqlRecord) -> QSqlRecord """
+    return None
+
+  def remove(self, int):
+    """ remove(self, int) """
+    pass
+
+  def replace(self, int, QSqlField):
+    """ replace(self, int, QSqlField) """
+    pass
+
+  def setGenerated(self, str, bool):
+    """ setGenerated(self, str, bool)
+    setGenerated(self, int, bool) """
+    pass
+
+  def setNull(self, int):
+    """ setNull(self, int)
+    setNull(self, str) """
+    pass
+
+  def setValue(self, int, Any):
+    """ setValue(self, int, Any)
+    setValue(self, str, Any) """
+    pass
+
+  def value(self, int):
+    """ value(self, int) -> Any
+    value(self, str) -> Any """
+    return None
+
+class QSqlRelation(simplewrapper):
+  """ QSqlRelation()
+  QSqlRelation(str, str, str)
+  QSqlRelation(QSqlRelation) """
+
+  def displayColumn(self):
+    """ displayColumn(self) -> str """
+    return ""
+
+  def indexColumn(self):
+    """ indexColumn(self) -> str """
+    return ""
+
+  def isValid(self):
+    """ isValid(self) -> bool """
+    return None
+
+  def swap(self, QSqlRelation):
+    """ swap(self, QSqlRelation) """
+    pass
+
+  def tableName(self):
+    """ tableName(self) -> str """
+    return ""
+
+class QSqlRelationalDelegate(QItemDelegate):
+  """ QSqlRelationalDelegate(parent: QObject = None) """
+
+  EditNextItem = None
+  EditPreviousItem = None
+
+  class EndEditHint(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  NoHint = None
+  RevertModelCache = None
+  SubmitModelCache = None
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def closeEditor():
+    """ closeEditor(self, QWidget, hint: QAbstractItemDelegate.EndEditHint = QAbstractItemDelegate.NoHint) [signal] """
+    pass
+
+  def commitData(self, QWidget):
+    """ commitData(self, QWidget) [signal] """
+    pass
+
+  def connectNotify():
+    pass
+
+  def createEditor(self, QWidget, QStyleOptionViewItem, QModelIndex):
+    """ createEditor(self, QWidget, QStyleOptionViewItem, QModelIndex) -> QWidget """
+    return None
+
+  def customEvent():
+    pass
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def destroyEditor(self, QWidget, QModelIndex):
+    """ destroyEditor(self, QWidget, QModelIndex) """
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def drawBackground():
+    pass
+
+  def drawCheck():
+    pass
+
+  def drawDecoration():
+    pass
+
+  def drawDisplay():
+    pass
+
+  def drawFocus():
+    pass
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def editorEvent():
+    pass
+
+  def event(self, QEvent):
+    """ event(self, QEvent) -> bool """
+    return None
+
+  def eventFilter():
+    pass
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def hasClipping(self):
+    """ hasClipping(self) -> bool """
+    return None
+
+  def helpEvent(self, QHelpEvent, QAbstractItemView, QStyleOptionViewItem, QModelIndex):
+    """ helpEvent(self, QHelpEvent, QAbstractItemView, QStyleOptionViewItem, QModelIndex) -> bool """
+    return None
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isSignalConnected():
+    pass
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def itemEditorFactory(self):
+    """ itemEditorFactory(self) -> QItemEditorFactory """
+    return None
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def paint(self, QPainter, QStyleOptionViewItem, QModelIndex):
+    """ paint(self, QPainter, QStyleOptionViewItem, QModelIndex) """
+    pass
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def receivers():
+    pass
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setClipping(self, bool):
+    """ setClipping(self, bool) """
+    pass
+
+  def setEditorData(self, QWidget, QModelIndex):
+    """ setEditorData(self, QWidget, QModelIndex) """
+    pass
+
+  def setItemEditorFactory(self, QItemEditorFactory):
+    """ setItemEditorFactory(self, QItemEditorFactory) """
+    pass
+
+  def setModelData(self, QWidget, QAbstractItemModel, QModelIndex):
+    """ setModelData(self, QWidget, QAbstractItemModel, QModelIndex) """
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def sizeHint(self, QStyleOptionViewItem, QModelIndex):
+    """ sizeHint(self, QStyleOptionViewItem, QModelIndex) -> QSize """
+    return None
+
+  def sizeHintChanged(self, QModelIndex):
+    """ sizeHintChanged(self, QModelIndex) [signal] """
+    pass
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+  def updateEditorGeometry(self, QWidget, QStyleOptionViewItem, QModelIndex):
+    """ updateEditorGeometry(self, QWidget, QStyleOptionViewItem, QModelIndex) """
+    pass
+
+class QSqlRelationalTableModel(QSqlTableModel):
+  """ QSqlRelationalTableModel(parent: QObject = None, db: QSqlDatabase = QSqlDatabase()) """
+
+  class EditStrategy(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  HorizontalSortHint = None
+  InnerJoin = None
+
+  class JoinMode(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  LeftJoin = None
+  NoLayoutChangeHint = None
+  OnFieldChange = None
+  OnManualSubmit = None
+  OnRowChange = None
+  VerticalSortHint = None
+
+  def beforeDelete(self, int):
+    """ beforeDelete(self, int) [signal] """
+    pass
+
+  def beforeInsert(self, QSqlRecord):
+    """ beforeInsert(self, QSqlRecord) [signal] """
+    pass
+
+  def beforeUpdate(self, int, QSqlRecord):
+    """ beforeUpdate(self, int, QSqlRecord) [signal] """
+    pass
+
+  def beginInsertColumns():
+    pass
+
+  def beginInsertRows():
+    pass
+
+  def beginMoveColumns():
+    pass
+
+  def beginMoveRows():
+    pass
+
+  def beginRemoveColumns():
+    pass
+
+  def beginRemoveRows():
+    pass
+
+  def beginResetModel():
+    pass
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def buddy(self, QModelIndex):
+    """ buddy(self, QModelIndex) -> QModelIndex """
+    return None
+
+  def canDropMimeData(self, QMimeData, arg0, int, int, QModelIndex):
+    """ canDropMimeData(self, QMimeData, Qt.DropAction, int, int, QModelIndex) -> bool """
+    return None
+
+  def canFetchMore(self, arg0=None):
+    """ canFetchMore(self, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def changePersistentIndex():
+    pass
+
+  def changePersistentIndexList():
+    pass
+
+  def checkIndex(self, QModelIndex, arg0=None, arg1=None):
+    """ checkIndex(self, QModelIndex, options: Union[QAbstractItemModel.CheckIndexOptions, QAbstractItemModel.CheckIndexOption] = QAbstractItemModel.CheckIndexOption.NoOption) -> bool """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def columnCount(self, arg0=None):
+    """ columnCount(self, parent: QModelIndex = QModelIndex()) -> int """
+    return 1
+
+  def columnsAboutToBeInserted(self, QModelIndex, int, int):
+    """ columnsAboutToBeInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def columnsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ columnsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def columnsAboutToBeRemoved(self, QModelIndex, int, int):
+    """ columnsAboutToBeRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def columnsInserted(self, QModelIndex, int, int):
+    """ columnsInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def columnsMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ columnsMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def columnsRemoved(self, QModelIndex, int, int):
+    """ columnsRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def connectNotify():
+    pass
+
+  def createIndex():
+    pass
+
+  def customEvent():
+    pass
+
+  def data(self, QModelIndex, arg0=None):
+    """ data(self, QModelIndex, role: int = Qt.DisplayRole) -> Any """
+    return None
+
+  def dataChanged():
+    """ dataChanged(self, QModelIndex, QModelIndex, roles: Iterable[int] = []) [signal] """
+    pass
+
+  def database(self):
+    """ database(self) -> QSqlDatabase """
+    return None
+
+  def decodeData():
+    pass
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def deleteRowFromTable():
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dropMimeData(self, QMimeData, arg0, int, int, QModelIndex):
+    """ dropMimeData(self, QMimeData, Qt.DropAction, int, int, QModelIndex) -> bool """
+    return None
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def editStrategy(self):
+    """ editStrategy(self) -> QSqlTableModel.EditStrategy """
+    return None
+
+  def encodeData():
+    pass
+
+  def endInsertColumns():
+    pass
+
+  def endInsertRows():
+    pass
+
+  def endMoveColumns():
+    pass
+
+  def endMoveRows():
+    pass
+
+  def endRemoveColumns():
+    pass
+
+  def endRemoveRows():
+    pass
+
+  def endResetModel():
+    pass
+
+  def event(self, QEvent):
+    """ event(self, QEvent) -> bool """
+    return None
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def fetchMore():
+    """ fetchMore(self, parent: QModelIndex = QModelIndex()) """
+    pass
+
+  def fieldIndex(self, str):
+    """ fieldIndex(self, str) -> int """
+    return 1
+
+  def filter(self):
+    """ filter(self) -> str """
+    return ""
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def flags(self, QModelIndex):
+    """ flags(self, QModelIndex) -> Qt.ItemFlags """
+    return None
+
+  def hasChildren():
+    pass
+
+  def hasIndex(self, int, int, arg0=None):
+    """ hasIndex(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def headerData(self, int, arg0, arg1=None):
+    """ headerData(self, int, Qt.Orientation, role: int = Qt.ItemDataRole.DisplayRole) -> Any """
+    return None
+
+  def headerDataChanged(self, arg0, int, int):
+    """ headerDataChanged(self, Qt.Orientation, int, int) [signal] """
+    pass
+
+  def index(self, int, int, arg0=None):
+    """ index(self, int, int, parent: QModelIndex = QModelIndex()) -> QModelIndex """
+    return None
+
+  def indexInQuery():
+    pass
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def insertColumn(self, int, arg0=None):
+    """ insertColumn(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def insertColumns(self, int, int, arg0=None):
+    """ insertColumns(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def insertRecord(self, int, QSqlRecord):
+    """ insertRecord(self, int, QSqlRecord) -> bool """
+    return None
+
+  def insertRow(self, int, arg0=None):
+    """ insertRow(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def insertRowIntoTable(self, QSqlRecord):
+    """ insertRowIntoTable(self, QSqlRecord) -> bool """
+    return None
+
+  def insertRows(self, int, int, arg0=None):
+    """ insertRows(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isDirty(self, QModelIndex):
+    """ isDirty(self, QModelIndex) -> bool
+    isDirty(self) -> bool """
+    return None
+
+  def isSignalConnected():
+    pass
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def itemData(self, QModelIndex):
+    """ itemData(self, QModelIndex) -> Dict[int, Any] """
+    return 1
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def lastError(self):
+    """ lastError(self) -> QSqlError """
+    return None
+
+  def layoutAboutToBeChanged():
+    """ layoutAboutToBeChanged(self, parents: Iterable[QPersistentModelIndex] = [], hint: QAbstractItemModel.LayoutChangeHint = QAbstractItemModel.NoLayoutChangeHint) [signal] """
+    pass
+
+  def layoutChanged():
+    """ layoutChanged(self, parents: Iterable[QPersistentModelIndex] = [], hint: QAbstractItemModel.LayoutChangeHint = QAbstractItemModel.NoLayoutChangeHint) [signal] """
+    pass
+
+  def match(self, QModelIndex, int, Any, arg0=None, arg1=None, arg2=None):
+    """ match(self, QModelIndex, int, Any, hits: int = 1, flags: Union[Qt.MatchFlags, Qt.MatchFlag] = Qt.MatchStartsWith|Qt.MatchWrap) -> List[QModelIndex] """
+    return None
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def mimeData(self, IterableQModelIndex=None):
+    """ mimeData(self, Iterable[QModelIndex]) -> QMimeData """
+    return None
+
+  def mimeTypes(self):
+    """ mimeTypes(self) -> List[str] """
+    return ""
+
+  def modelAboutToBeReset(self):
+    """ modelAboutToBeReset(self) [signal] """
+    pass
+
+  def modelReset(self):
+    """ modelReset(self) [signal] """
+    pass
+
+  def moveColumn(self, QModelIndex, int, QModelIndex, int):
+    """ moveColumn(self, QModelIndex, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveColumns(self, QModelIndex, int, int, QModelIndex, int):
+    """ moveColumns(self, QModelIndex, int, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveRow(self, QModelIndex, int, QModelIndex, int):
+    """ moveRow(self, QModelIndex, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveRows(self, QModelIndex, int, int, QModelIndex, int):
+    """ moveRows(self, QModelIndex, int, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def orderByClause(self):
+    """ orderByClause(self) -> str """
+    return ""
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def persistentIndexList():
+    pass
+
+  def primaryKey(self):
+    """ primaryKey(self) -> QSqlIndex """
+    return None
+
+  def primaryValues():
+    pass
+
+  def primeInsert(self, int, QSqlRecord):
+    """ primeInsert(self, int, QSqlRecord) [signal] """
+    pass
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def query(self):
+    """ query(self) -> QSqlQuery """
+    return None
+
+  def queryChange():
+    pass
+
+  def receivers():
+    pass
+
+  def record(self):
+    """ record(self) -> QSqlRecord
+    record(self, int) -> QSqlRecord """
+    return None
+
+  def relation(self, int):
+    """ relation(self, int) -> QSqlRelation """
+    return None
+
+  def relationModel(self, int):
+    """ relationModel(self, int) -> QSqlTableModel """
+    return None
+
+  def removeColumn(self, int, arg0=None):
+    """ removeColumn(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def removeColumns(self, int, int, arg0=None):
+    """ removeColumns(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def removeRow(self, int, arg0=None):
+    """ removeRow(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def removeRows(self, int, int, arg0=None):
+    """ removeRows(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def resetInternalData():
+    pass
+
+  def revert(self):
+    """ revert(self) """
+    pass
+
+  def revertAll(self):
+    """ revertAll(self) """
+    pass
+
+  def revertRow(self, int):
+    """ revertRow(self, int) """
+    pass
+
+  def roleNames(self):
+    """ roleNames(self) -> Dict[int, QByteArray] """
+    return 1
+
+  def rowCount(self, arg0=None):
+    """ rowCount(self, parent: QModelIndex = QModelIndex()) -> int """
+    return 1
+
+  def rowsAboutToBeInserted(self, QModelIndex, int, int):
+    """ rowsAboutToBeInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def rowsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ rowsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def rowsAboutToBeRemoved(self, QModelIndex, int, int):
+    """ rowsAboutToBeRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def rowsInserted(self, QModelIndex, int, int):
+    """ rowsInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def rowsMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ rowsMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def rowsRemoved(self, QModelIndex, int, int):
+    """ rowsRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def select(self):
+    """ select(self) -> bool """
+    return None
+
+  def selectRow(self, int):
+    """ selectRow(self, int) -> bool """
+    return None
+
+  def selectStatement(self):
+    """ selectStatement(self) -> str """
+    return ""
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setData(self, QModelIndex, Any, arg0=None):
+    """ setData(self, QModelIndex, Any, role: int = Qt.EditRole) -> bool """
+    return None
+
+  def setEditStrategy(self, arg0):
+    """ setEditStrategy(self, QSqlTableModel.EditStrategy) """
+    pass
+
+  def setFilter(self, str):
+    """ setFilter(self, str) """
+    pass
+
+  def setHeaderData(self, int, arg0, Any, arg1=None):
+    """ setHeaderData(self, int, Qt.Orientation, Any, role: int = Qt.EditRole) -> bool """
+    return None
+
+  def setItemData(self, QModelIndex, Dictint=None, Any=None):
+    """ setItemData(self, QModelIndex, Dict[int, Any]) -> bool """
+    return None
+
+  def setJoinMode(self, arg0):
+    """ setJoinMode(self, QSqlRelationalTableModel.JoinMode) """
+    pass
+
+  def setLastError():
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setPrimaryKey():
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def setQuery():
+    pass
+
+  def setRecord(self, int, QSqlRecord):
+    """ setRecord(self, int, QSqlRecord) -> bool """
+    return None
+
+  def setRelation(self, int, QSqlRelation):
+    """ setRelation(self, int, QSqlRelation) """
+    pass
+
+  def setSort(self, int, arg0):
+    """ setSort(self, int, Qt.SortOrder) """
+    pass
+
+  def setTable(self, str):
+    """ setTable(self, str) """
+    pass
+
+  def sibling(self, int, int, QModelIndex):
+    """ sibling(self, int, int, QModelIndex) -> QModelIndex """
+    return None
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def sort(self, int, arg0):
+    """ sort(self, int, Qt.SortOrder) """
+    pass
+
+  def span(self, QModelIndex):
+    """ span(self, QModelIndex) -> QSize """
+    return None
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def submit(self):
+    """ submit(self) -> bool """
+    return None
+
+  def submitAll(self):
+    """ submitAll(self) -> bool """
+    return None
+
+  def supportedDragActions(self):
+    """ supportedDragActions(self) -> Qt.DropActions """
+    return None
+
+  def supportedDropActions(self):
+    """ supportedDropActions(self) -> Qt.DropActions """
+    return None
+
+  def tableName(self):
+    """ tableName(self) -> str """
+    return ""
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+  def updateRowInTable(self, int, QSqlRecord):
+    """ updateRowInTable(self, int, QSqlRecord) -> bool """
+    return None
+
+class QSqlResult(wrapper):
+  """ QSqlResult(QSqlDriver) """
+
+  class BindingSyntax(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  NamedBinding = None
+  PositionalBinding = None
+
+  def addBindValue(self, Any, UnionQSql.ParamType=None, QSql.ParamTypeFlag=None):
+    """ addBindValue(self, Any, Union[QSql.ParamType, QSql.ParamTypeFlag]) """
+    pass
+
+  def at(self):
+    """ at(self) -> int """
+    return 1
+
+  def bindValue(self, int, Any, UnionQSql.ParamType=None, QSql.ParamTypeFlag=None):
+    """ bindValue(self, int, Any, Union[QSql.ParamType, QSql.ParamTypeFlag])
+    bindValue(self, str, Any, Union[QSql.ParamType, QSql.ParamTypeFlag]) """
+    pass
+
+  def bindValueType(self, str):
+    """ bindValueType(self, str) -> QSql.ParamType
+    bindValueType(self, int) -> QSql.ParamType """
+    return None
+
+  def bindingSyntax(self):
+    """ bindingSyntax(self) -> QSqlResult.BindingSyntax """
+    return None
+
+  def boundValue(self, str):
+    """ boundValue(self, str) -> Any
+    boundValue(self, int) -> Any """
+    return None
+
+  def boundValueCount(self):
+    """ boundValueCount(self) -> int """
+    return 1
+
+  def boundValueName(self, int):
+    """ boundValueName(self, int) -> str """
+    return ""
+
+  def boundValues(self):
+    """ boundValues(self) -> List[Any] """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def data(self, int):
+    """ data(self, int) -> Any """
+    return None
+
+  def driver(self):
+    """ driver(self) -> QSqlDriver """
+    return None
+
+  def exec(self):
+    """ exec(self) -> bool """
+    return None
+
+  def exec_(self):
+    """ exec_(self) -> bool """
+    return None
+
+  def executedQuery(self):
+    """ executedQuery(self) -> str """
+    return ""
+
+  def fetch(self, int):
+    """ fetch(self, int) -> bool """
+    return None
+
+  def fetchFirst(self):
+    """ fetchFirst(self) -> bool """
+    return None
+
+  def fetchLast(self):
+    """ fetchLast(self) -> bool """
+    return None
+
+  def fetchNext(self):
+    """ fetchNext(self) -> bool """
+    return None
+
+  def fetchPrevious(self):
+    """ fetchPrevious(self) -> bool """
+    return None
+
+  def handle(self):
+    """ handle(self) -> Any """
+    return None
+
+  def hasOutValues(self):
+    """ hasOutValues(self) -> bool """
+    return None
+
+  def isActive(self):
+    """ isActive(self) -> bool """
+    return None
+
+  def isForwardOnly(self):
+    """ isForwardOnly(self) -> bool """
+    return None
+
+  def isNull(self, int):
+    """ isNull(self, int) -> bool """
+    return None
+
+  def isSelect(self):
+    """ isSelect(self) -> bool """
+    return None
+
+  def isValid(self):
+    """ isValid(self) -> bool """
+    return None
+
+  def lastError(self):
+    """ lastError(self) -> QSqlError """
+    return None
+
+  def lastInsertId(self):
+    """ lastInsertId(self) -> Any """
+    return None
+
+  def lastQuery(self):
+    """ lastQuery(self) -> str """
+    return ""
+
+  def numRowsAffected(self):
+    """ numRowsAffected(self) -> int """
+    return 1
+
+  def prepare(self, str):
+    """ prepare(self, str) -> bool """
+    return None
+
+  def record(self):
+    """ record(self) -> QSqlRecord """
+    return None
+
+  def reset(self, str):
+    """ reset(self, str) -> bool """
+    return None
+
+  def savePrepare(self, str):
+    """ savePrepare(self, str) -> bool """
+    return None
+
+  def setActive(self, bool):
+    """ setActive(self, bool) """
+    pass
+
+  def setAt(self, int):
+    """ setAt(self, int) """
+    pass
+
+  def setForwardOnly(self, bool):
+    """ setForwardOnly(self, bool) """
+    pass
+
+  def setLastError(self, QSqlError):
+    """ setLastError(self, QSqlError) """
+    pass
+
+  def setQuery(self, str):
+    """ setQuery(self, str) """
+    pass
+
+  def setSelect(self, bool):
+    """ setSelect(self, bool) """
+    pass
+
+  def size(self):
+    """ size(self) -> int """
+    return 1
+
+class QSqlTableModel(QSqlQueryModel):
+  """ QSqlTableModel(parent: QObject = None, db: QSqlDatabase = QSqlDatabase()) """
+
+  HorizontalSortHint = None
+  NoLayoutChangeHint = None
+  OnFieldChange = None
+  OnManualSubmit = None
+  OnRowChange = None
+  VerticalSortHint = None
+
+  def beforeDelete(self, int):
+    """ beforeDelete(self, int) [signal] """
+    pass
+
+  def beforeInsert(self, QSqlRecord):
+    """ beforeInsert(self, QSqlRecord) [signal] """
+    pass
+
+  def beforeUpdate(self, int, QSqlRecord):
+    """ beforeUpdate(self, int, QSqlRecord) [signal] """
+    pass
+
+  def beginInsertColumns():
+    pass
+
+  def beginInsertRows():
+    pass
+
+  def beginMoveColumns():
+    pass
+
+  def beginMoveRows():
+    pass
+
+  def beginRemoveColumns():
+    pass
+
+  def beginRemoveRows():
+    pass
+
+  def beginResetModel():
+    pass
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def buddy(self, QModelIndex):
+    """ buddy(self, QModelIndex) -> QModelIndex """
+    return None
+
+  def canDropMimeData(self, QMimeData, arg0, int, int, QModelIndex):
+    """ canDropMimeData(self, QMimeData, Qt.DropAction, int, int, QModelIndex) -> bool """
+    return None
+
+  def canFetchMore(self, arg0=None):
+    """ canFetchMore(self, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def changePersistentIndex():
+    pass
+
+  def changePersistentIndexList():
+    pass
+
+  def checkIndex(self, QModelIndex, arg0=None, arg1=None):
+    """ checkIndex(self, QModelIndex, options: Union[QAbstractItemModel.CheckIndexOptions, QAbstractItemModel.CheckIndexOption] = QAbstractItemModel.CheckIndexOption.NoOption) -> bool """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def columnCount(self, arg0=None):
+    """ columnCount(self, parent: QModelIndex = QModelIndex()) -> int """
+    return 1
+
+  def columnsAboutToBeInserted(self, QModelIndex, int, int):
+    """ columnsAboutToBeInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def columnsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ columnsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def columnsAboutToBeRemoved(self, QModelIndex, int, int):
+    """ columnsAboutToBeRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def columnsInserted(self, QModelIndex, int, int):
+    """ columnsInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def columnsMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ columnsMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def columnsRemoved(self, QModelIndex, int, int):
+    """ columnsRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def connectNotify():
+    pass
+
+  def createIndex():
+    pass
+
+  def customEvent():
+    pass
+
+  def data(self, QModelIndex, arg0=None):
+    """ data(self, QModelIndex, role: int = Qt.ItemDataRole.DisplayRole) -> Any """
+    return None
+
+  def dataChanged():
+    """ dataChanged(self, QModelIndex, QModelIndex, roles: Iterable[int] = []) [signal] """
+    pass
+
+  def database(self):
+    """ database(self) -> QSqlDatabase """
+    return None
+
+  def decodeData():
+    pass
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def deleteRowFromTable(self, int):
+    """ deleteRowFromTable(self, int) -> bool """
+    return None
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dropMimeData(self, QMimeData, arg0, int, int, QModelIndex):
+    """ dropMimeData(self, QMimeData, Qt.DropAction, int, int, QModelIndex) -> bool """
+    return None
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def editStrategy(self):
+    """ editStrategy(self) -> QSqlTableModel.EditStrategy """
+    return None
+
+  def encodeData():
+    pass
+
+  def endInsertColumns():
+    pass
+
+  def endInsertRows():
+    pass
+
+  def endMoveColumns():
+    pass
+
+  def endMoveRows():
+    pass
+
+  def endRemoveColumns():
+    pass
+
+  def endRemoveRows():
+    pass
+
+  def endResetModel():
+    pass
+
+  def event(self, QEvent):
+    """ event(self, QEvent) -> bool """
+    return None
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def fetchMore():
+    """ fetchMore(self, parent: QModelIndex = QModelIndex()) """
+    pass
+
+  def fieldIndex(self, str):
+    """ fieldIndex(self, str) -> int """
+    return 1
+
+  def filter(self):
+    """ filter(self) -> str """
+    return ""
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def flags(self, QModelIndex):
+    """ flags(self, QModelIndex) -> Qt.ItemFlags """
+    return None
+
+  def hasChildren():
+    pass
+
+  def hasIndex(self, int, int, arg0=None):
+    """ hasIndex(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def headerData(self, int, arg0, arg1=None):
+    """ headerData(self, int, Qt.Orientation, role: int = Qt.ItemDataRole.DisplayRole) -> Any """
+    return None
+
+  def headerDataChanged(self, arg0, int, int):
+    """ headerDataChanged(self, Qt.Orientation, int, int) [signal] """
+    pass
+
+  def index(self, int, int, arg0=None):
+    """ index(self, int, int, parent: QModelIndex = QModelIndex()) -> QModelIndex """
+    return None
+
+  def indexInQuery(self, QModelIndex):
+    """ indexInQuery(self, QModelIndex) -> QModelIndex """
+    return None
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def insertColumn(self, int, arg0=None):
+    """ insertColumn(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def insertColumns(self, int, int, arg0=None):
+    """ insertColumns(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def insertRecord(self, int, QSqlRecord):
+    """ insertRecord(self, int, QSqlRecord) -> bool """
+    return None
+
+  def insertRow(self, int, arg0=None):
+    """ insertRow(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def insertRowIntoTable(self, QSqlRecord):
+    """ insertRowIntoTable(self, QSqlRecord) -> bool """
+    return None
+
+  def insertRows(self, int, int, arg0=None):
+    """ insertRows(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isDirty(self, QModelIndex):
+    """ isDirty(self, QModelIndex) -> bool
+    isDirty(self) -> bool """
+    return None
+
+  def isSignalConnected():
+    pass
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def itemData(self, QModelIndex):
+    """ itemData(self, QModelIndex) -> Dict[int, Any] """
+    return 1
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def lastError(self):
+    """ lastError(self) -> QSqlError """
+    return None
+
+  def layoutAboutToBeChanged():
+    """ layoutAboutToBeChanged(self, parents: Iterable[QPersistentModelIndex] = [], hint: QAbstractItemModel.LayoutChangeHint = QAbstractItemModel.NoLayoutChangeHint) [signal] """
+    pass
+
+  def layoutChanged():
+    """ layoutChanged(self, parents: Iterable[QPersistentModelIndex] = [], hint: QAbstractItemModel.LayoutChangeHint = QAbstractItemModel.NoLayoutChangeHint) [signal] """
+    pass
+
+  def match(self, QModelIndex, int, Any, arg0=None, arg1=None, arg2=None):
+    """ match(self, QModelIndex, int, Any, hits: int = 1, flags: Union[Qt.MatchFlags, Qt.MatchFlag] = Qt.MatchStartsWith|Qt.MatchWrap) -> List[QModelIndex] """
+    return None
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def mimeData(self, IterableQModelIndex=None):
+    """ mimeData(self, Iterable[QModelIndex]) -> QMimeData """
+    return None
+
+  def mimeTypes(self):
+    """ mimeTypes(self) -> List[str] """
+    return ""
+
+  def modelAboutToBeReset(self):
+    """ modelAboutToBeReset(self) [signal] """
+    pass
+
+  def modelReset(self):
+    """ modelReset(self) [signal] """
+    pass
+
+  def moveColumn(self, QModelIndex, int, QModelIndex, int):
+    """ moveColumn(self, QModelIndex, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveColumns(self, QModelIndex, int, int, QModelIndex, int):
+    """ moveColumns(self, QModelIndex, int, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveRow(self, QModelIndex, int, QModelIndex, int):
+    """ moveRow(self, QModelIndex, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveRows(self, QModelIndex, int, int, QModelIndex, int):
+    """ moveRows(self, QModelIndex, int, int, QModelIndex, int) -> bool """
+    return None
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def orderByClause(self):
+    """ orderByClause(self) -> str """
+    return ""
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def persistentIndexList():
+    pass
+
+  def primaryKey(self):
+    """ primaryKey(self) -> QSqlIndex """
+    return None
+
+  def primaryValues(self, int):
+    """ primaryValues(self, int) -> QSqlRecord """
+    return None
+
+  def primeInsert(self, int, QSqlRecord):
+    """ primeInsert(self, int, QSqlRecord) [signal] """
+    pass
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def query(self):
+    """ query(self) -> QSqlQuery """
+    return None
+
+  def queryChange():
+    pass
+
+  def receivers():
+    pass
+
+  def record(self):
+    """ record(self) -> QSqlRecord
+    record(self, int) -> QSqlRecord """
+    return None
+
+  def removeColumn(self, int, arg0=None):
+    """ removeColumn(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def removeColumns(self, int, int, arg0=None):
+    """ removeColumns(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def removeRow(self, int, arg0=None):
+    """ removeRow(self, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def removeRows(self, int, int, arg0=None):
+    """ removeRows(self, int, int, parent: QModelIndex = QModelIndex()) -> bool """
+    return None
+
+  def resetInternalData():
+    pass
+
+  def revert(self):
+    """ revert(self) """
+    pass
+
+  def revertAll(self):
+    """ revertAll(self) """
+    pass
+
+  def revertRow(self, int):
+    """ revertRow(self, int) """
+    pass
+
+  def roleNames(self):
+    """ roleNames(self) -> Dict[int, QByteArray] """
+    return 1
+
+  def rowCount(self, arg0=None):
+    """ rowCount(self, parent: QModelIndex = QModelIndex()) -> int """
+    return 1
+
+  def rowsAboutToBeInserted(self, QModelIndex, int, int):
+    """ rowsAboutToBeInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def rowsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ rowsAboutToBeMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def rowsAboutToBeRemoved(self, QModelIndex, int, int):
+    """ rowsAboutToBeRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def rowsInserted(self, QModelIndex, int, int):
+    """ rowsInserted(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def rowsMoved(self, QModelIndex, int, int, QModelIndex, int):
+    """ rowsMoved(self, QModelIndex, int, int, QModelIndex, int) [signal] """
+    pass
+
+  def rowsRemoved(self, QModelIndex, int, int):
+    """ rowsRemoved(self, QModelIndex, int, int) [signal] """
+    pass
+
+  def select(self):
+    """ select(self) -> bool """
+    return None
+
+  def selectRow(self, int):
+    """ selectRow(self, int) -> bool """
+    return None
+
+  def selectStatement(self):
+    """ selectStatement(self) -> str """
+    return ""
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setData(self, QModelIndex, Any, arg0=None):
+    """ setData(self, QModelIndex, Any, role: int = Qt.ItemDataRole.EditRole) -> bool """
+    return None
+
+  def setEditStrategy(self, arg0):
+    """ setEditStrategy(self, QSqlTableModel.EditStrategy) """
+    pass
+
+  def setFilter(self, str):
+    """ setFilter(self, str) """
+    pass
+
+  def setHeaderData(self, int, arg0, Any, arg1=None):
+    """ setHeaderData(self, int, Qt.Orientation, Any, role: int = Qt.EditRole) -> bool """
+    return None
+
+  def setItemData(self, QModelIndex, Dictint=None, Any=None):
+    """ setItemData(self, QModelIndex, Dict[int, Any]) -> bool """
+    return None
+
+  def setLastError():
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setPrimaryKey(self, QSqlIndex):
+    """ setPrimaryKey(self, QSqlIndex) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def setQuery(self, QSqlQuery):
+    """ setQuery(self, QSqlQuery) """
+    pass
+
+  def setRecord(self, int, QSqlRecord):
+    """ setRecord(self, int, QSqlRecord) -> bool """
+    return None
+
+  def setSort(self, int, arg0):
+    """ setSort(self, int, Qt.SortOrder) """
+    pass
+
+  def setTable(self, str):
+    """ setTable(self, str) """
+    pass
+
+  def sibling(self, int, int, QModelIndex):
+    """ sibling(self, int, int, QModelIndex) -> QModelIndex """
+    return None
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def sort(self, int, arg0):
+    """ sort(self, int, Qt.SortOrder) """
+    pass
+
+  def span(self, QModelIndex):
+    """ span(self, QModelIndex) -> QSize """
+    return None
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def submit(self):
+    """ submit(self) -> bool """
+    return None
+
+  def submitAll(self):
+    """ submitAll(self) -> bool """
+    return None
+
+  def supportedDragActions(self):
+    """ supportedDragActions(self) -> Qt.DropActions """
+    return None
+
+  def supportedDropActions(self):
+    """ supportedDropActions(self) -> Qt.DropActions """
+    return None
+
+  def tableName(self):
+    """ tableName(self) -> str """
+    return ""
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+  def updateRowInTable(self, int, QSqlRecord):
+    """ updateRowInTable(self, int, QSqlRecord) -> bool """
+    return None
+
+__doc__ = None
+__file__ = 'C:\\Users\\Rupka\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\PyQt5\\QtSql.pyd'
+__loader__ = None
+__name__ = 'PyQt5.QtSql'
+__package__ = 'PyQt5'
+__spec__ = None
+

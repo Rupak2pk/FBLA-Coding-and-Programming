@@ -1,0 +1,2687 @@
+# coding: utf-8
+# AUTO-GENERATED FILE -- DO NOT EDIT
+
+
+class QGraphicsSvgItem(QGraphicsObject):
+  """ QGraphicsSvgItem(parent: QGraphicsItem = None)
+  QGraphicsSvgItem(str, parent: QGraphicsItem = None) """
+
+  class CacheMode(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  DeviceCoordinateCache = None
+
+  class GraphicsItemChange(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  class GraphicsItemFlag(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  class GraphicsItemFlags(simplewrapper):
+    """ QGraphicsItem.GraphicsItemFlags()
+    QGraphicsItem.GraphicsItemFlags(Union[QGraphicsItem.GraphicsItemFlags, QGraphicsItem.GraphicsItemFlag])
+    QGraphicsItem.GraphicsItemFlags(QGraphicsItem.GraphicsItemFlags) """
+
+    pass
+
+  ItemAcceptsInputMethod = None
+  ItemChildAddedChange = None
+  ItemChildRemovedChange = None
+  ItemClipsChildrenToShape = None
+  ItemClipsToShape = None
+  ItemContainsChildrenInShape = None
+  ItemCoordinateCache = None
+  ItemCursorChange = None
+  ItemCursorHasChanged = None
+  ItemDoesntPropagateOpacityToChildren = None
+  ItemEnabledChange = None
+  ItemEnabledHasChanged = None
+  ItemFlagsChange = None
+  ItemFlagsHaveChanged = None
+  ItemHasNoContents = None
+  ItemIgnoresParentOpacity = None
+  ItemIgnoresTransformations = None
+  ItemIsFocusable = None
+  ItemIsMovable = None
+  ItemIsPanel = None
+  ItemIsSelectable = None
+  ItemMatrixChange = None
+  ItemNegativeZStacksBehindParent = None
+  ItemOpacityChange = None
+  ItemOpacityHasChanged = None
+  ItemParentChange = None
+  ItemParentHasChanged = None
+  ItemPositionChange = None
+  ItemPositionHasChanged = None
+  ItemRotationChange = None
+  ItemRotationHasChanged = None
+  ItemScaleChange = None
+  ItemScaleHasChanged = None
+  ItemSceneChange = None
+  ItemSceneHasChanged = None
+  ItemScenePositionHasChanged = None
+  ItemSelectedChange = None
+  ItemSelectedHasChanged = None
+  ItemSendsGeometryChanges = None
+  ItemSendsScenePositionChanges = None
+  ItemStacksBehindParent = None
+  ItemToolTipChange = None
+  ItemToolTipHasChanged = None
+  ItemTransformChange = None
+  ItemTransformHasChanged = None
+  ItemTransformOriginPointChange = None
+  ItemTransformOriginPointHasChanged = None
+  ItemUsesExtendedStyleOption = None
+  ItemVisibleChange = None
+  ItemVisibleHasChanged = None
+  ItemZValueChange = None
+  ItemZValueHasChanged = None
+  NoCache = None
+  NonModal = None
+  PanelModal = None
+
+  class PanelModality(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  SceneModal = None
+  Type = 1
+  UserType = 65536
+
+  def acceptDrops(self):
+    """ acceptDrops(self) -> bool """
+    return None
+
+  def acceptHoverEvents(self):
+    """ acceptHoverEvents(self) -> bool """
+    return None
+
+  def acceptTouchEvents(self):
+    """ acceptTouchEvents(self) -> bool """
+    return None
+
+  def acceptedMouseButtons(self):
+    """ acceptedMouseButtons(self) -> Qt.MouseButtons """
+    return None
+
+  def advance(self, int):
+    """ advance(self, int) """
+    pass
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def boundingRect(self):
+    """ boundingRect(self) -> QRectF """
+    return None
+
+  def boundingRegion(self, QTransform):
+    """ boundingRegion(self, QTransform) -> QRegion """
+    return None
+
+  def boundingRegionGranularity(self):
+    """ boundingRegionGranularity(self) -> float """
+    return 1.0
+
+  def cacheMode(self):
+    """ cacheMode(self) -> QGraphicsItem.CacheMode """
+    return None
+
+  def childEvent():
+    pass
+
+  def childItems(self):
+    """ childItems(self) -> List[QGraphicsItem] """
+    return None
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def childrenBoundingRect(self):
+    """ childrenBoundingRect(self) -> QRectF """
+    return None
+
+  def clearFocus(self):
+    """ clearFocus(self) """
+    pass
+
+  def clipPath(self):
+    """ clipPath(self) -> QPainterPath """
+    return 1
+
+  def collidesWithItem(self, QGraphicsItem, arg0=None):
+    """ collidesWithItem(self, QGraphicsItem, mode: Qt.ItemSelectionMode = Qt.IntersectsItemShape) -> bool """
+    return None
+
+  def collidesWithPath(self, QPainterPath, arg0=None):
+    """ collidesWithPath(self, QPainterPath, mode: Qt.ItemSelectionMode = Qt.IntersectsItemShape) -> bool """
+    return None
+
+  def collidingItems(self, arg0=None):
+    """ collidingItems(self, mode: Qt.ItemSelectionMode = Qt.IntersectsItemShape) -> List[QGraphicsItem] """
+    return None
+
+  def commonAncestorItem(self, QGraphicsItem):
+    """ commonAncestorItem(self, QGraphicsItem) -> QGraphicsItem """
+    return None
+
+  def connectNotify():
+    pass
+
+  def contains(self, UnionQPointF=None, QPoint=None):
+    """ contains(self, Union[QPointF, QPoint]) -> bool """
+    return None
+
+  def contextMenuEvent():
+    pass
+
+  def cursor(self):
+    """ cursor(self) -> QCursor """
+    return None
+
+  def customEvent():
+    pass
+
+  def data(self, int):
+    """ data(self, int) -> Any """
+    return None
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def deviceTransform(self, QTransform):
+    """ deviceTransform(self, QTransform) -> QTransform """
+    return None
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dragEnterEvent():
+    pass
+
+  def dragLeaveEvent():
+    pass
+
+  def dragMoveEvent():
+    pass
+
+  def dropEvent():
+    pass
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def effectiveOpacity(self):
+    """ effectiveOpacity(self) -> float """
+    return 1.0
+
+  def elementId(self):
+    """ elementId(self) -> str """
+    return ""
+
+  def enabledChanged(self):
+    """ enabledChanged(self) [signal] """
+    pass
+
+  def ensureVisible():
+    """ ensureVisible(self, rect: QRectF = QRectF(), xMargin: int = 50, yMargin: int = 50)
+    ensureVisible(self, float, float, float, float, xMargin: int = 50, yMargin: int = 50) """
+    pass
+
+  def event():
+    pass
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def filtersChildEvents(self):
+    """ filtersChildEvents(self) -> bool """
+    return None
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def flags(self):
+    """ flags(self) -> QGraphicsItem.GraphicsItemFlags """
+    return None
+
+  def focusInEvent():
+    pass
+
+  def focusItem(self):
+    """ focusItem(self) -> QGraphicsItem """
+    return None
+
+  def focusOutEvent():
+    pass
+
+  def focusProxy(self):
+    """ focusProxy(self) -> QGraphicsItem """
+    return None
+
+  def grabGesture():
+    """ grabGesture(self, Qt.GestureType, flags: Union[Qt.GestureFlags, Qt.GestureFlag] = Qt.GestureFlags()) """
+    pass
+
+  def grabKeyboard(self):
+    """ grabKeyboard(self) """
+    pass
+
+  def grabMouse(self):
+    """ grabMouse(self) """
+    pass
+
+  def graphicsEffect(self):
+    """ graphicsEffect(self) -> QGraphicsEffect """
+    return None
+
+  def group(self):
+    """ group(self) -> QGraphicsItemGroup """
+    return None
+
+  def hasCursor(self):
+    """ hasCursor(self) -> bool """
+    return None
+
+  def hasFocus(self):
+    """ hasFocus(self) -> bool """
+    return None
+
+  def hide(self):
+    """ hide(self) """
+    pass
+
+  def hoverEnterEvent():
+    pass
+
+  def hoverLeaveEvent():
+    pass
+
+  def hoverMoveEvent():
+    pass
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def inputMethodEvent():
+    pass
+
+  def inputMethodHints(self):
+    """ inputMethodHints(self) -> Qt.InputMethodHints """
+    return 1
+
+  def inputMethodQuery():
+    pass
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def installSceneEventFilter(self, QGraphicsItem):
+    """ installSceneEventFilter(self, QGraphicsItem) """
+    pass
+
+  def isActive(self):
+    """ isActive(self) -> bool """
+    return None
+
+  def isAncestorOf(self, QGraphicsItem):
+    """ isAncestorOf(self, QGraphicsItem) -> bool """
+    return None
+
+  def isBlockedByModalPanel(self):
+    """ isBlockedByModalPanel(self) -> Tuple[bool, QGraphicsItem] """
+    return None
+
+  def isClipped(self):
+    """ isClipped(self) -> bool """
+    return None
+
+  def isEnabled(self):
+    """ isEnabled(self) -> bool """
+    return None
+
+  def isObscured(self, arg0=None):
+    """ isObscured(self, rect: QRectF = QRectF()) -> bool
+    isObscured(self, float, float, float, float) -> bool """
+    return None
+
+  def isObscuredBy(self, QGraphicsItem):
+    """ isObscuredBy(self, QGraphicsItem) -> bool """
+    return None
+
+  def isPanel(self):
+    """ isPanel(self) -> bool """
+    return None
+
+  def isSelected(self):
+    """ isSelected(self) -> bool """
+    return None
+
+  def isSignalConnected():
+    pass
+
+  def isUnderMouse(self):
+    """ isUnderMouse(self) -> bool """
+    return None
+
+  def isVisible(self):
+    """ isVisible(self) -> bool """
+    return None
+
+  def isVisibleTo(self, QGraphicsItem):
+    """ isVisibleTo(self, QGraphicsItem) -> bool """
+    return None
+
+  def isWidget(self):
+    """ isWidget(self) -> bool """
+    return None
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindow(self):
+    """ isWindow(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def itemChange():
+    pass
+
+  def itemTransform(self, QGraphicsItem):
+    """ itemTransform(self, QGraphicsItem) -> Tuple[QTransform, bool] """
+    return None
+
+  def keyPressEvent():
+    pass
+
+  def keyReleaseEvent():
+    pass
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def mapFromItem(self, QGraphicsItem, UnionQPointF=None, QPoint=None):
+    """ mapFromItem(self, QGraphicsItem, Union[QPointF, QPoint]) -> QPointF
+    mapFromItem(self, QGraphicsItem, QRectF) -> QPolygonF
+    mapFromItem(self, QGraphicsItem, QPolygonF) -> QPolygonF
+    mapFromItem(self, QGraphicsItem, QPainterPath) -> QPainterPath
+    mapFromItem(self, QGraphicsItem, float, float) -> QPointF
+    mapFromItem(self, QGraphicsItem, float, float, float, float) -> QPolygonF """
+    return 1
+
+  def mapFromParent(self, UnionQPointF=None, QPoint=None):
+    """ mapFromParent(self, Union[QPointF, QPoint]) -> QPointF
+    mapFromParent(self, QRectF) -> QPolygonF
+    mapFromParent(self, QPolygonF) -> QPolygonF
+    mapFromParent(self, QPainterPath) -> QPainterPath
+    mapFromParent(self, float, float) -> QPointF
+    mapFromParent(self, float, float, float, float) -> QPolygonF """
+    return 1
+
+  def mapFromScene(self, UnionQPointF=None, QPoint=None):
+    """ mapFromScene(self, Union[QPointF, QPoint]) -> QPointF
+    mapFromScene(self, QRectF) -> QPolygonF
+    mapFromScene(self, QPolygonF) -> QPolygonF
+    mapFromScene(self, QPainterPath) -> QPainterPath
+    mapFromScene(self, float, float) -> QPointF
+    mapFromScene(self, float, float, float, float) -> QPolygonF """
+    return 1
+
+  def mapRectFromItem(self, QGraphicsItem, QRectF):
+    """ mapRectFromItem(self, QGraphicsItem, QRectF) -> QRectF
+    mapRectFromItem(self, QGraphicsItem, float, float, float, float) -> QRectF """
+    return None
+
+  def mapRectFromParent(self, QRectF):
+    """ mapRectFromParent(self, QRectF) -> QRectF
+    mapRectFromParent(self, float, float, float, float) -> QRectF """
+    return None
+
+  def mapRectFromScene(self, QRectF):
+    """ mapRectFromScene(self, QRectF) -> QRectF
+    mapRectFromScene(self, float, float, float, float) -> QRectF """
+    return None
+
+  def mapRectToItem(self, QGraphicsItem, QRectF):
+    """ mapRectToItem(self, QGraphicsItem, QRectF) -> QRectF
+    mapRectToItem(self, QGraphicsItem, float, float, float, float) -> QRectF """
+    return None
+
+  def mapRectToParent(self, QRectF):
+    """ mapRectToParent(self, QRectF) -> QRectF
+    mapRectToParent(self, float, float, float, float) -> QRectF """
+    return None
+
+  def mapRectToScene(self, QRectF):
+    """ mapRectToScene(self, QRectF) -> QRectF
+    mapRectToScene(self, float, float, float, float) -> QRectF """
+    return None
+
+  def mapToItem(self, QGraphicsItem, UnionQPointF=None, QPoint=None):
+    """ mapToItem(self, QGraphicsItem, Union[QPointF, QPoint]) -> QPointF
+    mapToItem(self, QGraphicsItem, QRectF) -> QPolygonF
+    mapToItem(self, QGraphicsItem, QPolygonF) -> QPolygonF
+    mapToItem(self, QGraphicsItem, QPainterPath) -> QPainterPath
+    mapToItem(self, QGraphicsItem, float, float) -> QPointF
+    mapToItem(self, QGraphicsItem, float, float, float, float) -> QPolygonF """
+    return 1
+
+  def mapToParent(self, UnionQPointF=None, QPoint=None):
+    """ mapToParent(self, Union[QPointF, QPoint]) -> QPointF
+    mapToParent(self, QRectF) -> QPolygonF
+    mapToParent(self, QPolygonF) -> QPolygonF
+    mapToParent(self, QPainterPath) -> QPainterPath
+    mapToParent(self, float, float) -> QPointF
+    mapToParent(self, float, float, float, float) -> QPolygonF """
+    return 1
+
+  def mapToScene(self, UnionQPointF=None, QPoint=None):
+    """ mapToScene(self, Union[QPointF, QPoint]) -> QPointF
+    mapToScene(self, QRectF) -> QPolygonF
+    mapToScene(self, QPolygonF) -> QPolygonF
+    mapToScene(self, QPainterPath) -> QPainterPath
+    mapToScene(self, float, float) -> QPointF
+    mapToScene(self, float, float, float, float) -> QPolygonF """
+    return 1
+
+  def maximumCacheSize(self):
+    """ maximumCacheSize(self) -> QSize """
+    return None
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def mouseDoubleClickEvent():
+    pass
+
+  def mouseMoveEvent():
+    pass
+
+  def mousePressEvent():
+    pass
+
+  def mouseReleaseEvent():
+    pass
+
+  def moveBy(self, float, float):
+    """ moveBy(self, float, float) """
+    pass
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def opacity(self):
+    """ opacity(self) -> float """
+    return 1.0
+
+  def opacityChanged(self):
+    """ opacityChanged(self) [signal] """
+    pass
+
+  def opaqueArea(self):
+    """ opaqueArea(self) -> QPainterPath """
+    return 1
+
+  def paint():
+    """ paint(self, QPainter, QStyleOptionGraphicsItem, widget: QWidget = None) """
+    pass
+
+  def panel(self):
+    """ panel(self) -> QGraphicsItem """
+    return None
+
+  def panelModality(self):
+    """ panelModality(self) -> QGraphicsItem.PanelModality """
+    return None
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def parentChanged(self):
+    """ parentChanged(self) [signal] """
+    pass
+
+  def parentItem(self):
+    """ parentItem(self) -> QGraphicsItem """
+    return None
+
+  def parentObject(self):
+    """ parentObject(self) -> QGraphicsObject """
+    return None
+
+  def parentWidget(self):
+    """ parentWidget(self) -> QGraphicsWidget """
+    return None
+
+  def pos(self):
+    """ pos(self) -> QPointF """
+    return 1
+
+  def prepareGeometryChange():
+    pass
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def receivers():
+    pass
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def removeSceneEventFilter(self, QGraphicsItem):
+    """ removeSceneEventFilter(self, QGraphicsItem) """
+    pass
+
+  def renderer(self):
+    """ renderer(self) -> QSvgRenderer """
+    return None
+
+  def resetTransform(self):
+    """ resetTransform(self) """
+    pass
+
+  def rotation(self):
+    """ rotation(self) -> float """
+    return 1.0
+
+  def rotationChanged(self):
+    """ rotationChanged(self) [signal] """
+    pass
+
+  def scale(self):
+    """ scale(self) -> float """
+    return 1.0
+
+  def scaleChanged(self):
+    """ scaleChanged(self) [signal] """
+    pass
+
+  def scene(self):
+    """ scene(self) -> QGraphicsScene """
+    return None
+
+  def sceneBoundingRect(self):
+    """ sceneBoundingRect(self) -> QRectF """
+    return None
+
+  def sceneEvent():
+    pass
+
+  def sceneEventFilter():
+    pass
+
+  def scenePos(self):
+    """ scenePos(self) -> QPointF """
+    return 1
+
+  def sceneTransform(self):
+    """ sceneTransform(self) -> QTransform """
+    return None
+
+  def scroll():
+    """ scroll(self, float, float, rect: QRectF = QRectF()) """
+    pass
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setAcceptDrops(self, bool):
+    """ setAcceptDrops(self, bool) """
+    pass
+
+  def setAcceptHoverEvents(self, bool):
+    """ setAcceptHoverEvents(self, bool) """
+    pass
+
+  def setAcceptTouchEvents(self, bool):
+    """ setAcceptTouchEvents(self, bool) """
+    pass
+
+  def setAcceptedMouseButtons(self, UnionQt.MouseButtons=None, Qt.MouseButton=None):
+    """ setAcceptedMouseButtons(self, Union[Qt.MouseButtons, Qt.MouseButton]) """
+    pass
+
+  def setActive(self, bool):
+    """ setActive(self, bool) """
+    pass
+
+  def setBoundingRegionGranularity(self, float):
+    """ setBoundingRegionGranularity(self, float) """
+    pass
+
+  def setCacheMode():
+    """ setCacheMode(self, QGraphicsItem.CacheMode, logicalCacheSize: QSize = QSize()) """
+    pass
+
+  def setCursor(self, UnionQCursor=None, Qt.CursorShape=None):
+    """ setCursor(self, Union[QCursor, Qt.CursorShape]) """
+    pass
+
+  def setData(self, int, Any):
+    """ setData(self, int, Any) """
+    pass
+
+  def setElementId(self, str):
+    """ setElementId(self, str) """
+    pass
+
+  def setEnabled(self, bool):
+    """ setEnabled(self, bool) """
+    pass
+
+  def setFiltersChildEvents(self, bool):
+    """ setFiltersChildEvents(self, bool) """
+    pass
+
+  def setFlag():
+    """ setFlag(self, QGraphicsItem.GraphicsItemFlag, enabled: bool = True) """
+    pass
+
+  def setFlags(self, UnionQGraphicsItem.GraphicsItemFlags=None, QGraphicsItem.GraphicsItemFlag=None):
+    """ setFlags(self, Union[QGraphicsItem.GraphicsItemFlags, QGraphicsItem.GraphicsItemFlag]) """
+    pass
+
+  def setFocus():
+    """ setFocus(self, focusReason: Qt.FocusReason = Qt.OtherFocusReason) """
+    pass
+
+  def setFocusProxy(self, QGraphicsItem):
+    """ setFocusProxy(self, QGraphicsItem) """
+    pass
+
+  def setGraphicsEffect(self, QGraphicsEffect):
+    """ setGraphicsEffect(self, QGraphicsEffect) """
+    pass
+
+  def setGroup(self, QGraphicsItemGroup):
+    """ setGroup(self, QGraphicsItemGroup) """
+    pass
+
+  def setInputMethodHints(self, UnionQt.InputMethodHints=None, Qt.InputMethodHint=None):
+    """ setInputMethodHints(self, Union[Qt.InputMethodHints, Qt.InputMethodHint]) """
+    pass
+
+  def setMaximumCacheSize(self, QSize):
+    """ setMaximumCacheSize(self, QSize) """
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setOpacity(self, float):
+    """ setOpacity(self, float) """
+    pass
+
+  def setPanelModality(self, arg0):
+    """ setPanelModality(self, QGraphicsItem.PanelModality) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setParentItem(self, QGraphicsItem):
+    """ setParentItem(self, QGraphicsItem) """
+    pass
+
+  def setPos(self, UnionQPointF=None, QPoint=None):
+    """ setPos(self, Union[QPointF, QPoint])
+    setPos(self, float, float) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def setRotation(self, float):
+    """ setRotation(self, float) """
+    pass
+
+  def setScale(self, float):
+    """ setScale(self, float) """
+    pass
+
+  def setSelected(self, bool):
+    """ setSelected(self, bool) """
+    pass
+
+  def setSharedRenderer(self, QSvgRenderer):
+    """ setSharedRenderer(self, QSvgRenderer) """
+    pass
+
+  def setToolTip(self, str):
+    """ setToolTip(self, str) """
+    pass
+
+  def setTransform():
+    """ setTransform(self, QTransform, combine: bool = False) """
+    pass
+
+  def setTransformOriginPoint(self, UnionQPointF=None, QPoint=None):
+    """ setTransformOriginPoint(self, Union[QPointF, QPoint])
+    setTransformOriginPoint(self, float, float) """
+    pass
+
+  def setTransformations(self, IterableQGraphicsTransform=None):
+    """ setTransformations(self, Iterable[QGraphicsTransform]) """
+    pass
+
+  def setVisible(self, bool):
+    """ setVisible(self, bool) """
+    pass
+
+  def setX(self, float):
+    """ setX(self, float) """
+    pass
+
+  def setY(self, float):
+    """ setY(self, float) """
+    pass
+
+  def setZValue(self, float):
+    """ setZValue(self, float) """
+    pass
+
+  def shape(self):
+    """ shape(self) -> QPainterPath """
+    return 1
+
+  def show(self):
+    """ show(self) """
+    pass
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def stackBefore(self, QGraphicsItem):
+    """ stackBefore(self, QGraphicsItem) """
+    pass
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def toGraphicsObject(self):
+    """ toGraphicsObject(self) -> QGraphicsObject """
+    return None
+
+  def toolTip(self):
+    """ toolTip(self) -> str """
+    return ""
+
+  def topLevelItem(self):
+    """ topLevelItem(self) -> QGraphicsItem """
+    return None
+
+  def topLevelWidget(self):
+    """ topLevelWidget(self) -> QGraphicsWidget """
+    return None
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+  def transform(self):
+    """ transform(self) -> QTransform """
+    return None
+
+  def transformOriginPoint(self):
+    """ transformOriginPoint(self) -> QPointF """
+    return 1
+
+  def transformations(self):
+    """ transformations(self) -> List[QGraphicsTransform] """
+    return None
+
+  def type(self):
+    """ type(self) -> int """
+    return 1
+
+  def ungrabGesture(self, arg0):
+    """ ungrabGesture(self, Qt.GestureType) """
+    pass
+
+  def ungrabKeyboard(self):
+    """ ungrabKeyboard(self) """
+    pass
+
+  def ungrabMouse(self):
+    """ ungrabMouse(self) """
+    pass
+
+  def unsetCursor(self):
+    """ unsetCursor(self) """
+    pass
+
+  def update(self, float, float, float, float):
+    """ update(self, rect: QRectF = QRectF())
+    update(self, float, float, float, float) """
+    pass
+
+  def updateMicroFocus():
+    pass
+
+  def visibleChanged(self):
+    """ visibleChanged(self) [signal] """
+    pass
+
+  def wheelEvent():
+    pass
+
+  def window(self):
+    """ window(self) -> QGraphicsWidget """
+    return None
+
+  def x(self):
+    """ x(self) -> float """
+    return 1.0
+
+  def xChanged(self):
+    """ xChanged(self) [signal] """
+    pass
+
+  def y(self):
+    """ y(self) -> float """
+    return 1.0
+
+  def yChanged(self):
+    """ yChanged(self) [signal] """
+    pass
+
+  def zChanged(self):
+    """ zChanged(self) [signal] """
+    pass
+
+  def zValue(self):
+    """ zValue(self) -> float """
+    return 1.0
+
+class QSvgGenerator(QPaintDevice):
+  """ QSvgGenerator() """
+
+  class PaintDeviceMetric(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  PdmDepth = None
+  PdmDevicePixelRatio = None
+  PdmDevicePixelRatioScaled = None
+  PdmDpiX = None
+  PdmDpiY = None
+  PdmHeight = None
+  PdmHeightMM = None
+  PdmNumColors = None
+  PdmPhysicalDpiX = None
+  PdmPhysicalDpiY = None
+  PdmWidth = None
+  PdmWidthMM = None
+
+  def colorCount(self):
+    """ colorCount(self) -> int """
+    return 1
+
+  def depth(self):
+    """ depth(self) -> int """
+    return 1
+
+  def description(self):
+    """ description(self) -> str """
+    return ""
+
+  def devicePixelRatio(self):
+    """ devicePixelRatio(self) -> int """
+    return 1
+
+  def devicePixelRatioF(self):
+    """ devicePixelRatioF(self) -> float """
+    return 1.0
+
+  def devicePixelRatioFScale():
+    """ devicePixelRatioFScale() -> float """
+    return 1.0
+
+  def fileName(self):
+    """ fileName(self) -> str """
+    return ""
+
+  def height(self):
+    """ height(self) -> int """
+    return 1
+
+  def heightMM(self):
+    """ heightMM(self) -> int """
+    return 1
+
+  def logicalDpiX(self):
+    """ logicalDpiX(self) -> int """
+    return 1
+
+  def logicalDpiY(self):
+    """ logicalDpiY(self) -> int """
+    return 1
+
+  def metric(self, arg0):
+    """ metric(self, QPaintDevice.PaintDeviceMetric) -> int """
+    return 1
+
+  def outputDevice(self):
+    """ outputDevice(self) -> QIODevice """
+    return None
+
+  def paintEngine(self):
+    """ paintEngine(self) -> QPaintEngine """
+    return 1
+
+  def paintingActive(self):
+    """ paintingActive(self) -> bool """
+    return None
+
+  def physicalDpiX(self):
+    """ physicalDpiX(self) -> int """
+    return 1
+
+  def physicalDpiY(self):
+    """ physicalDpiY(self) -> int """
+    return 1
+
+  def resolution(self):
+    """ resolution(self) -> int """
+    return 1
+
+  def setDescription(self, str):
+    """ setDescription(self, str) """
+    pass
+
+  def setFileName(self, str):
+    """ setFileName(self, str) """
+    pass
+
+  def setOutputDevice(self, QIODevice):
+    """ setOutputDevice(self, QIODevice) """
+    pass
+
+  def setResolution(self, int):
+    """ setResolution(self, int) """
+    pass
+
+  def setSize(self, QSize):
+    """ setSize(self, QSize) """
+    pass
+
+  def setTitle(self, str):
+    """ setTitle(self, str) """
+    pass
+
+  def setViewBox(self, QRect):
+    """ setViewBox(self, QRect)
+    setViewBox(self, QRectF) """
+    pass
+
+  def size(self):
+    """ size(self) -> QSize """
+    return None
+
+  def title(self):
+    """ title(self) -> str """
+    return ""
+
+  def viewBox(self):
+    """ viewBox(self) -> QRect """
+    return None
+
+  def viewBoxF(self):
+    """ viewBoxF(self) -> QRectF """
+    return None
+
+  def width(self):
+    """ width(self) -> int """
+    return 1
+
+  def widthMM(self):
+    """ widthMM(self) -> int """
+    return 1
+
+class QSvgRenderer(QObject):
+  """ QSvgRenderer(parent: QObject = None)
+  QSvgRenderer(str, parent: QObject = None)
+  QSvgRenderer(Union[QByteArray, bytes, bytearray], parent: QObject = None)
+  QSvgRenderer(QXmlStreamReader, parent: QObject = None) """
+
+  def animated(self):
+    """ animated(self) -> bool """
+    return None
+
+  def animationDuration(self):
+    """ animationDuration(self) -> int """
+    return 1
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def boundsOnElement(self, str):
+    """ boundsOnElement(self, str) -> QRectF """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def connectNotify():
+    pass
+
+  def currentFrame(self):
+    """ currentFrame(self) -> int """
+    return 1
+
+  def customEvent():
+    pass
+
+  def defaultSize(self):
+    """ defaultSize(self) -> QSize """
+    return None
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def elementExists(self, str):
+    """ elementExists(self, str) -> bool """
+    return None
+
+  def event(self, QEvent):
+    """ event(self, QEvent) -> bool """
+    return None
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def framesPerSecond(self):
+    """ framesPerSecond(self) -> int """
+    return 1
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isSignalConnected():
+    pass
+
+  def isValid(self):
+    """ isValid(self) -> bool """
+    return None
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def load(self, str):
+    """ load(self, str) -> bool
+    load(self, Union[QByteArray, bytes, bytearray]) -> bool
+    load(self, QXmlStreamReader) -> bool """
+    return None
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def receivers():
+    pass
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def render(self, QPainter):
+    """ render(self, QPainter)
+    render(self, QPainter, QRectF)
+    render(self, QPainter, str, bounds: QRectF = QRectF()) """
+    pass
+
+  def repaintNeeded(self):
+    """ repaintNeeded(self) [signal] """
+    pass
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setCurrentFrame(self, int):
+    """ setCurrentFrame(self, int) """
+    pass
+
+  def setFramesPerSecond(self, int):
+    """ setFramesPerSecond(self, int) """
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setParent(self, QObject):
+    """ setParent(self, QObject) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def setViewBox(self, QRect):
+    """ setViewBox(self, QRect)
+    setViewBox(self, QRectF) """
+    pass
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+  def viewBox(self):
+    """ viewBox(self) -> QRect """
+    return None
+
+  def viewBoxF(self):
+    """ viewBoxF(self) -> QRectF """
+    return None
+
+class QSvgWidget(QWidget):
+  """ QSvgWidget(parent: QWidget = None)
+  QSvgWidget(str, parent: QWidget = None) """
+
+  DrawChildren = None
+  DrawWindowBackground = None
+  IgnoreMask = None
+  PdmDepth = None
+  PdmDevicePixelRatio = None
+  PdmDevicePixelRatioScaled = None
+  PdmDpiX = None
+  PdmDpiY = None
+  PdmHeight = None
+  PdmHeightMM = None
+  PdmNumColors = None
+  PdmPhysicalDpiX = None
+  PdmPhysicalDpiY = None
+  PdmWidth = None
+  PdmWidthMM = None
+
+  class RenderFlag(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  class RenderFlags(simplewrapper):
+    """ QWidget.RenderFlags()
+    QWidget.RenderFlags(Union[QWidget.RenderFlags, QWidget.RenderFlag])
+    QWidget.RenderFlags(QWidget.RenderFlags) """
+
+    pass
+
+  def acceptDrops(self):
+    """ acceptDrops(self) -> bool """
+    return None
+
+  def accessibleDescription(self):
+    """ accessibleDescription(self) -> str """
+    return ""
+
+  def accessibleName(self):
+    """ accessibleName(self) -> str """
+    return ""
+
+  def actionEvent():
+    pass
+
+  def actions(self):
+    """ actions(self) -> List[QAction] """
+    return None
+
+  def activateWindow(self):
+    """ activateWindow(self) """
+    pass
+
+  def addAction(self, QAction):
+    """ addAction(self, QAction) """
+    pass
+
+  def addActions(self, IterableQAction=None):
+    """ addActions(self, Iterable[QAction]) """
+    pass
+
+  def adjustSize(self):
+    """ adjustSize(self) """
+    pass
+
+  def autoFillBackground(self):
+    """ autoFillBackground(self) -> bool """
+    return None
+
+  def backgroundRole(self):
+    """ backgroundRole(self) -> QPalette.ColorRole """
+    return None
+
+  def baseSize(self):
+    """ baseSize(self) -> QSize """
+    return None
+
+  def blockSignals(self, bool):
+    """ blockSignals(self, bool) -> bool """
+    return None
+
+  def changeEvent():
+    pass
+
+  def childAt(self, QPoint):
+    """ childAt(self, QPoint) -> QWidget
+    childAt(self, int, int) -> QWidget """
+    return None
+
+  def childEvent():
+    pass
+
+  def children(self):
+    """ children(self) -> List[QObject] """
+    return None
+
+  def childrenRect(self):
+    """ childrenRect(self) -> QRect """
+    return None
+
+  def childrenRegion(self):
+    """ childrenRegion(self) -> QRegion """
+    return None
+
+  def clearFocus(self):
+    """ clearFocus(self) """
+    pass
+
+  def clearMask(self):
+    """ clearMask(self) """
+    pass
+
+  def close(self):
+    """ close(self) -> bool """
+    return None
+
+  def closeEvent():
+    pass
+
+  def colorCount(self):
+    """ colorCount(self) -> int """
+    return 1
+
+  def connectNotify():
+    pass
+
+  def contentsMargins(self):
+    """ contentsMargins(self) -> QMargins """
+    return None
+
+  def contentsRect(self):
+    """ contentsRect(self) -> QRect """
+    return None
+
+  def contextMenuEvent():
+    pass
+
+  def contextMenuPolicy(self):
+    """ contextMenuPolicy(self) -> Qt.ContextMenuPolicy """
+    return None
+
+  def create():
+    pass
+
+  def createWindowContainer(QWindow, arg0=None, arg1=None, arg2=None):
+    """ createWindowContainer(QWindow, parent: QWidget = None, flags: Union[Qt.WindowFlags, Qt.WindowType] = 0) -> QWidget """
+    return None
+
+  def cursor(self):
+    """ cursor(self) -> QCursor """
+    return None
+
+  def customContextMenuRequested(self, QPoint):
+    """ customContextMenuRequested(self, QPoint) [signal] """
+    pass
+
+  def customEvent():
+    pass
+
+  def deleteLater(self):
+    """ deleteLater(self) """
+    pass
+
+  def depth(self):
+    """ depth(self) -> int """
+    return 1
+
+  def destroy():
+    pass
+
+  def destroyed():
+    """ destroyed(self, object: QObject = None) [signal] """
+    pass
+
+  def devType(self):
+    """ devType(self) -> int """
+    return 1
+
+  def devicePixelRatio(self):
+    """ devicePixelRatio(self) -> int """
+    return 1
+
+  def devicePixelRatioF(self):
+    """ devicePixelRatioF(self) -> float """
+    return 1.0
+
+  def devicePixelRatioFScale():
+    """ devicePixelRatioFScale() -> float """
+    return 1.0
+
+  def disconnect(arg0):
+    """ disconnect(QMetaObject.Connection) -> bool
+    disconnect(self) """
+    return None
+
+  def disconnectNotify():
+    pass
+
+  def dragEnterEvent():
+    pass
+
+  def dragLeaveEvent():
+    pass
+
+  def dragMoveEvent():
+    pass
+
+  def dropEvent():
+    pass
+
+  def dumpObjectInfo(self):
+    """ dumpObjectInfo(self) """
+    pass
+
+  def dumpObjectTree(self):
+    """ dumpObjectTree(self) """
+    pass
+
+  def dynamicPropertyNames(self):
+    """ dynamicPropertyNames(self) -> List[QByteArray] """
+    return None
+
+  def effectiveWinId(self):
+    """ effectiveWinId(self) -> sip.voidptr """
+    return None
+
+  def ensurePolished(self):
+    """ ensurePolished(self) """
+    pass
+
+  def enterEvent():
+    pass
+
+  def event():
+    pass
+
+  def eventFilter(self, QObject, QEvent):
+    """ eventFilter(self, QObject, QEvent) -> bool """
+    return None
+
+  def find(arg0):
+    """ find(sip.voidptr) -> QWidget """
+    return None
+
+  def findChild(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChild(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject
+    findChild(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> QObject """
+    return None
+
+  def findChildren(self, type, arg0=None, arg1=None, arg2=None):
+    """ findChildren(self, type, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, name: str = '', options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegExp, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, type, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject]
+    findChildren(self, Tuple, QRegularExpression, options: Union[Qt.FindChildOptions, Qt.FindChildOption] = Qt.FindChildrenRecursively) -> List[QObject] """
+    return None
+
+  def focusInEvent():
+    pass
+
+  def focusNextChild():
+    pass
+
+  def focusNextPrevChild():
+    pass
+
+  def focusOutEvent():
+    pass
+
+  def focusPolicy(self):
+    """ focusPolicy(self) -> Qt.FocusPolicy """
+    return None
+
+  def focusPreviousChild():
+    pass
+
+  def focusProxy(self):
+    """ focusProxy(self) -> QWidget """
+    return None
+
+  def focusWidget(self):
+    """ focusWidget(self) -> QWidget """
+    return None
+
+  def font(self):
+    """ font(self) -> QFont """
+    return None
+
+  def fontInfo(self):
+    """ fontInfo(self) -> QFontInfo """
+    return None
+
+  def fontMetrics(self):
+    """ fontMetrics(self) -> QFontMetrics """
+    return None
+
+  def foregroundRole(self):
+    """ foregroundRole(self) -> QPalette.ColorRole """
+    return None
+
+  def frameGeometry(self):
+    """ frameGeometry(self) -> QRect """
+    return None
+
+  def frameSize(self):
+    """ frameSize(self) -> QSize """
+    return None
+
+  def geometry(self):
+    """ geometry(self) -> QRect """
+    return None
+
+  def getContentsMargins(self):
+    """ getContentsMargins(self) -> Tuple[int, int, int, int] """
+    return 1
+
+  def grab(self, arg0=None, 0)=None, QSize(_1=None, _1))=None):
+    """ grab(self, rectangle: QRect = QRect(QPoint(0,0),QSize(-1,-1))) -> QPixmap """
+    return None
+
+  def grabGesture():
+    """ grabGesture(self, Qt.GestureType, flags: Union[Qt.GestureFlags, Qt.GestureFlag] = Qt.GestureFlags()) """
+    pass
+
+  def grabKeyboard(self):
+    """ grabKeyboard(self) """
+    pass
+
+  def grabMouse(self):
+    """ grabMouse(self)
+    grabMouse(self, Union[QCursor, Qt.CursorShape]) """
+    pass
+
+  def grabShortcut(self, UnionQKeySequence=None, QKeySequence.StandardKey=None, str=None, int=None, arg0=None):
+    """ grabShortcut(self, Union[QKeySequence, QKeySequence.StandardKey, str, int], context: Qt.ShortcutContext = Qt.WindowShortcut) -> int """
+    return 1
+
+  def graphicsEffect(self):
+    """ graphicsEffect(self) -> QGraphicsEffect """
+    return None
+
+  def graphicsProxyWidget(self):
+    """ graphicsProxyWidget(self) -> QGraphicsProxyWidget """
+    return None
+
+  def hasFocus(self):
+    """ hasFocus(self) -> bool """
+    return None
+
+  def hasHeightForWidth(self):
+    """ hasHeightForWidth(self) -> bool """
+    return None
+
+  def hasMouseTracking(self):
+    """ hasMouseTracking(self) -> bool """
+    return None
+
+  def hasTabletTracking(self):
+    """ hasTabletTracking(self) -> bool """
+    return None
+
+  def height(self):
+    """ height(self) -> int """
+    return 1
+
+  def heightForWidth(self, int):
+    """ heightForWidth(self, int) -> int """
+    return 1
+
+  def heightMM(self):
+    """ heightMM(self) -> int """
+    return 1
+
+  def hide(self):
+    """ hide(self) """
+    pass
+
+  def hideEvent():
+    pass
+
+  def inherits(self, str):
+    """ inherits(self, str) -> bool """
+    return None
+
+  def initPainter():
+    pass
+
+  def inputMethodEvent():
+    pass
+
+  def inputMethodHints(self):
+    """ inputMethodHints(self) -> Qt.InputMethodHints """
+    return 1
+
+  def inputMethodQuery(self, arg0):
+    """ inputMethodQuery(self, Qt.InputMethodQuery) -> Any """
+    return None
+
+  def insertAction(self, QAction, QAction):
+    """ insertAction(self, QAction, QAction) """
+    pass
+
+  def insertActions(self, QAction, IterableQAction=None):
+    """ insertActions(self, QAction, Iterable[QAction]) """
+    pass
+
+  def installEventFilter(self, QObject):
+    """ installEventFilter(self, QObject) """
+    pass
+
+  def isActiveWindow(self):
+    """ isActiveWindow(self) -> bool """
+    return None
+
+  def isAncestorOf(self, QWidget):
+    """ isAncestorOf(self, QWidget) -> bool """
+    return None
+
+  def isEnabled(self):
+    """ isEnabled(self) -> bool """
+    return None
+
+  def isEnabledTo(self, QWidget):
+    """ isEnabledTo(self, QWidget) -> bool """
+    return None
+
+  def isFullScreen(self):
+    """ isFullScreen(self) -> bool """
+    return None
+
+  def isHidden(self):
+    """ isHidden(self) -> bool """
+    return None
+
+  def isLeftToRight(self):
+    """ isLeftToRight(self) -> bool """
+    return None
+
+  def isMaximized(self):
+    """ isMaximized(self) -> bool """
+    return None
+
+  def isMinimized(self):
+    """ isMinimized(self) -> bool """
+    return None
+
+  def isModal(self):
+    """ isModal(self) -> bool """
+    return None
+
+  def isRightToLeft(self):
+    """ isRightToLeft(self) -> bool """
+    return None
+
+  def isSignalConnected():
+    pass
+
+  def isVisible(self):
+    """ isVisible(self) -> bool """
+    return None
+
+  def isVisibleTo(self, QWidget):
+    """ isVisibleTo(self, QWidget) -> bool """
+    return None
+
+  def isWidgetType(self):
+    """ isWidgetType(self) -> bool """
+    return None
+
+  def isWindow(self):
+    """ isWindow(self) -> bool """
+    return None
+
+  def isWindowModified(self):
+    """ isWindowModified(self) -> bool """
+    return None
+
+  def isWindowType(self):
+    """ isWindowType(self) -> bool """
+    return None
+
+  def keyPressEvent():
+    pass
+
+  def keyReleaseEvent():
+    pass
+
+  def keyboardGrabber():
+    """ keyboardGrabber() -> QWidget """
+    return None
+
+  def killTimer(self, int):
+    """ killTimer(self, int) """
+    pass
+
+  def layout(self):
+    """ layout(self) -> QLayout """
+    return None
+
+  def layoutDirection(self):
+    """ layoutDirection(self) -> Qt.LayoutDirection """
+    return None
+
+  def leaveEvent():
+    pass
+
+  def load(self, str):
+    """ load(self, str)
+    load(self, Union[QByteArray, bytes, bytearray]) """
+    pass
+
+  def locale(self):
+    """ locale(self) -> QLocale """
+    return None
+
+  def logicalDpiX(self):
+    """ logicalDpiX(self) -> int """
+    return 1
+
+  def logicalDpiY(self):
+    """ logicalDpiY(self) -> int """
+    return 1
+
+  def lower(self):
+    """ lower(self) """
+    pass
+
+  def mapFrom(self, QWidget, QPoint):
+    """ mapFrom(self, QWidget, QPoint) -> QPoint """
+    return 1
+
+  def mapFromGlobal(self, QPoint):
+    """ mapFromGlobal(self, QPoint) -> QPoint """
+    return 1
+
+  def mapFromParent(self, QPoint):
+    """ mapFromParent(self, QPoint) -> QPoint """
+    return 1
+
+  def mapTo(self, QWidget, QPoint):
+    """ mapTo(self, QWidget, QPoint) -> QPoint """
+    return 1
+
+  def mapToGlobal(self, QPoint):
+    """ mapToGlobal(self, QPoint) -> QPoint """
+    return 1
+
+  def mapToParent(self, QPoint):
+    """ mapToParent(self, QPoint) -> QPoint """
+    return 1
+
+  def mask(self):
+    """ mask(self) -> QRegion """
+    return None
+
+  def maximumHeight(self):
+    """ maximumHeight(self) -> int """
+    return 1
+
+  def maximumSize(self):
+    """ maximumSize(self) -> QSize """
+    return None
+
+  def maximumWidth(self):
+    """ maximumWidth(self) -> int """
+    return 1
+
+  def metaObject(self):
+    """ metaObject(self) -> QMetaObject """
+    return None
+
+  def metric():
+    pass
+
+  def minimumHeight(self):
+    """ minimumHeight(self) -> int """
+    return 1
+
+  def minimumSize(self):
+    """ minimumSize(self) -> QSize """
+    return None
+
+  def minimumSizeHint(self):
+    """ minimumSizeHint(self) -> QSize """
+    return None
+
+  def minimumWidth(self):
+    """ minimumWidth(self) -> int """
+    return 1
+
+  def mouseDoubleClickEvent():
+    pass
+
+  def mouseGrabber():
+    """ mouseGrabber() -> QWidget """
+    return None
+
+  def mouseMoveEvent():
+    pass
+
+  def mousePressEvent():
+    pass
+
+  def mouseReleaseEvent():
+    pass
+
+  def move(self, QPoint):
+    """ move(self, QPoint)
+    move(self, int, int) """
+    pass
+
+  def moveEvent():
+    pass
+
+  def moveToThread(self, QThread):
+    """ moveToThread(self, QThread) """
+    pass
+
+  def nativeEvent():
+    pass
+
+  def nativeParentWidget(self):
+    """ nativeParentWidget(self) -> QWidget """
+    return None
+
+  def nextInFocusChain(self):
+    """ nextInFocusChain(self) -> QWidget """
+    return None
+
+  def normalGeometry(self):
+    """ normalGeometry(self) -> QRect """
+    return None
+
+  def objectName(self):
+    """ objectName(self) -> str """
+    return ""
+
+  def objectNameChanged(self, str):
+    """ objectNameChanged(self, str) [signal] """
+    pass
+
+  def overrideWindowFlags(self, UnionQt.WindowFlags=None, Qt.WindowType=None):
+    """ overrideWindowFlags(self, Union[Qt.WindowFlags, Qt.WindowType]) """
+    pass
+
+  def overrideWindowState(self, UnionQt.WindowStates=None, Qt.WindowState=None):
+    """ overrideWindowState(self, Union[Qt.WindowStates, Qt.WindowState]) """
+    pass
+
+  def paintEngine(self):
+    """ paintEngine(self) -> QPaintEngine """
+    return 1
+
+  def paintEvent(self, QPaintEvent):
+    """ paintEvent(self, QPaintEvent) """
+    pass
+
+  def paintingActive(self):
+    """ paintingActive(self) -> bool """
+    return None
+
+  def palette(self):
+    """ palette(self) -> QPalette """
+    return None
+
+  def parent(self):
+    """ parent(self) -> QObject """
+    return None
+
+  def parentWidget(self):
+    """ parentWidget(self) -> QWidget """
+    return None
+
+  def physicalDpiX(self):
+    """ physicalDpiX(self) -> int """
+    return 1
+
+  def physicalDpiY(self):
+    """ physicalDpiY(self) -> int """
+    return 1
+
+  def pos(self):
+    """ pos(self) -> QPoint """
+    return 1
+
+  def previousInFocusChain(self):
+    """ previousInFocusChain(self) -> QWidget """
+    return None
+
+  def property(self, str):
+    """ property(self, str) -> Any """
+    return None
+
+  def pyqtConfigure(*args):
+    """ QObject.pyqtConfigure(...)
+    
+    Each keyword argument is either the name of a Qt property or a Qt signal.
+    For properties the property is set to the given value which should be of an
+    appropriate type.
+    For signals the signal is connected to the given value which should be a
+    callable. """
+    pass
+
+  def raise_(self):
+    """ raise_(self) """
+    pass
+
+  def receivers():
+    pass
+
+  def rect(self):
+    """ rect(self) -> QRect """
+    return None
+
+  def releaseKeyboard(self):
+    """ releaseKeyboard(self) """
+    pass
+
+  def releaseMouse(self):
+    """ releaseMouse(self) """
+    pass
+
+  def releaseShortcut(self, int):
+    """ releaseShortcut(self, int) """
+    pass
+
+  def removeAction(self, QAction):
+    """ removeAction(self, QAction) """
+    pass
+
+  def removeEventFilter(self, QObject):
+    """ removeEventFilter(self, QObject) """
+    pass
+
+  def render():
+    """ render(self, QPaintDevice, targetOffset: QPoint = QPoint(), sourceRegion: QRegion = QRegion(), flags: Union[QWidget.RenderFlags, QWidget.RenderFlag] = QWidget.RenderFlags(QWidget.DrawWindowBackground|QWidget.DrawChildren))
+    render(self, QPainter, targetOffset: QPoint = QPoint(), sourceRegion: QRegion = QRegion(), flags: Union[QWidget.RenderFlags, QWidget.RenderFlag] = QWidget.RenderFlags(QWidget.DrawWindowBackground|QWidget.DrawChildren)) """
+    pass
+
+  def renderer(self):
+    """ renderer(self) -> QSvgRenderer """
+    return None
+
+  def repaint(self):
+    """ repaint(self)
+    repaint(self, int, int, int, int)
+    repaint(self, QRect)
+    repaint(self, QRegion) """
+    pass
+
+  def resize(self, QSize):
+    """ resize(self, QSize)
+    resize(self, int, int) """
+    pass
+
+  def resizeEvent():
+    pass
+
+  def restoreGeometry(self, UnionQByteArray=None, bytes=None, bytearray=None):
+    """ restoreGeometry(self, Union[QByteArray, bytes, bytearray]) -> bool """
+    return None
+
+  def saveGeometry(self):
+    """ saveGeometry(self) -> QByteArray """
+    return None
+
+  def scroll(self, int, int):
+    """ scroll(self, int, int)
+    scroll(self, int, int, QRect) """
+    pass
+
+  def sender():
+    pass
+
+  def senderSignalIndex():
+    pass
+
+  def setAcceptDrops(self, bool):
+    """ setAcceptDrops(self, bool) """
+    pass
+
+  def setAccessibleDescription(self, str):
+    """ setAccessibleDescription(self, str) """
+    pass
+
+  def setAccessibleName(self, str):
+    """ setAccessibleName(self, str) """
+    pass
+
+  def setAttribute():
+    """ setAttribute(self, Qt.WidgetAttribute, on: bool = True) """
+    pass
+
+  def setAutoFillBackground(self, bool):
+    """ setAutoFillBackground(self, bool) """
+    pass
+
+  def setBackgroundRole(self, arg0):
+    """ setBackgroundRole(self, QPalette.ColorRole) """
+    pass
+
+  def setBaseSize(self, int, int):
+    """ setBaseSize(self, int, int)
+    setBaseSize(self, QSize) """
+    pass
+
+  def setContentsMargins(self, int, int, int, int):
+    """ setContentsMargins(self, int, int, int, int)
+    setContentsMargins(self, QMargins) """
+    pass
+
+  def setContextMenuPolicy(self, arg0):
+    """ setContextMenuPolicy(self, Qt.ContextMenuPolicy) """
+    pass
+
+  def setCursor(self, UnionQCursor=None, Qt.CursorShape=None):
+    """ setCursor(self, Union[QCursor, Qt.CursorShape]) """
+    pass
+
+  def setDisabled(self, bool):
+    """ setDisabled(self, bool) """
+    pass
+
+  def setEnabled(self, bool):
+    """ setEnabled(self, bool) """
+    pass
+
+  def setFixedHeight(self, int):
+    """ setFixedHeight(self, int) """
+    pass
+
+  def setFixedSize(self, QSize):
+    """ setFixedSize(self, QSize)
+    setFixedSize(self, int, int) """
+    pass
+
+  def setFixedWidth(self, int):
+    """ setFixedWidth(self, int) """
+    pass
+
+  def setFocus(self):
+    """ setFocus(self)
+    setFocus(self, Qt.FocusReason) """
+    pass
+
+  def setFocusPolicy(self, arg0):
+    """ setFocusPolicy(self, Qt.FocusPolicy) """
+    pass
+
+  def setFocusProxy(self, QWidget):
+    """ setFocusProxy(self, QWidget) """
+    pass
+
+  def setFont(self, QFont):
+    """ setFont(self, QFont) """
+    pass
+
+  def setForegroundRole(self, arg0):
+    """ setForegroundRole(self, QPalette.ColorRole) """
+    pass
+
+  def setGeometry(self, QRect):
+    """ setGeometry(self, QRect)
+    setGeometry(self, int, int, int, int) """
+    pass
+
+  def setGraphicsEffect(self, QGraphicsEffect):
+    """ setGraphicsEffect(self, QGraphicsEffect) """
+    pass
+
+  def setHidden(self, bool):
+    """ setHidden(self, bool) """
+    pass
+
+  def setInputMethodHints(self, UnionQt.InputMethodHints=None, Qt.InputMethodHint=None):
+    """ setInputMethodHints(self, Union[Qt.InputMethodHints, Qt.InputMethodHint]) """
+    pass
+
+  def setLayout(self, QLayout):
+    """ setLayout(self, QLayout) """
+    pass
+
+  def setLayoutDirection(self, arg0):
+    """ setLayoutDirection(self, Qt.LayoutDirection) """
+    pass
+
+  def setLocale(self, QLocale):
+    """ setLocale(self, QLocale) """
+    pass
+
+  def setMask(self, QBitmap):
+    """ setMask(self, QBitmap)
+    setMask(self, QRegion) """
+    pass
+
+  def setMaximumHeight(self, int):
+    """ setMaximumHeight(self, int) """
+    pass
+
+  def setMaximumSize(self, int, int):
+    """ setMaximumSize(self, int, int)
+    setMaximumSize(self, QSize) """
+    pass
+
+  def setMaximumWidth(self, int):
+    """ setMaximumWidth(self, int) """
+    pass
+
+  def setMinimumHeight(self, int):
+    """ setMinimumHeight(self, int) """
+    pass
+
+  def setMinimumSize(self, int, int):
+    """ setMinimumSize(self, int, int)
+    setMinimumSize(self, QSize) """
+    pass
+
+  def setMinimumWidth(self, int):
+    """ setMinimumWidth(self, int) """
+    pass
+
+  def setMouseTracking(self, bool):
+    """ setMouseTracking(self, bool) """
+    pass
+
+  def setObjectName(self, str):
+    """ setObjectName(self, str) """
+    pass
+
+  def setPalette(self, QPalette):
+    """ setPalette(self, QPalette) """
+    pass
+
+  def setParent(self, QWidget):
+    """ setParent(self, QWidget)
+    setParent(self, QWidget, Union[Qt.WindowFlags, Qt.WindowType]) """
+    pass
+
+  def setProperty(self, str, Any):
+    """ setProperty(self, str, Any) -> bool """
+    return None
+
+  def setShortcutAutoRepeat():
+    """ setShortcutAutoRepeat(self, int, enabled: bool = True) """
+    pass
+
+  def setShortcutEnabled():
+    """ setShortcutEnabled(self, int, enabled: bool = True) """
+    pass
+
+  def setSizeIncrement(self, int, int):
+    """ setSizeIncrement(self, int, int)
+    setSizeIncrement(self, QSize) """
+    pass
+
+  def setSizePolicy(self, QSizePolicy):
+    """ setSizePolicy(self, QSizePolicy)
+    setSizePolicy(self, QSizePolicy.Policy, QSizePolicy.Policy) """
+    pass
+
+  def setStatusTip(self, str):
+    """ setStatusTip(self, str) """
+    pass
+
+  def setStyle(self, QStyle):
+    """ setStyle(self, QStyle) """
+    pass
+
+  def setStyleSheet(self, str):
+    """ setStyleSheet(self, str) """
+    pass
+
+  def setTabOrder(QWidget, QWidget):
+    """ setTabOrder(QWidget, QWidget) """
+    pass
+
+  def setTabletTracking(self, bool):
+    """ setTabletTracking(self, bool) """
+    pass
+
+  def setToolTip(self, str):
+    """ setToolTip(self, str) """
+    pass
+
+  def setToolTipDuration(self, int):
+    """ setToolTipDuration(self, int) """
+    pass
+
+  def setUpdatesEnabled(self, bool):
+    """ setUpdatesEnabled(self, bool) """
+    pass
+
+  def setVisible(self, bool):
+    """ setVisible(self, bool) """
+    pass
+
+  def setWhatsThis(self, str):
+    """ setWhatsThis(self, str) """
+    pass
+
+  def setWindowFilePath(self, str):
+    """ setWindowFilePath(self, str) """
+    pass
+
+  def setWindowFlag():
+    """ setWindowFlag(self, Qt.WindowType, on: bool = True) """
+    pass
+
+  def setWindowFlags(self, UnionQt.WindowFlags=None, Qt.WindowType=None):
+    """ setWindowFlags(self, Union[Qt.WindowFlags, Qt.WindowType]) """
+    pass
+
+  def setWindowIcon(self, QIcon):
+    """ setWindowIcon(self, QIcon) """
+    pass
+
+  def setWindowIconText(self, str):
+    """ setWindowIconText(self, str) """
+    pass
+
+  def setWindowModality(self, arg0):
+    """ setWindowModality(self, Qt.WindowModality) """
+    pass
+
+  def setWindowModified(self, bool):
+    """ setWindowModified(self, bool) """
+    pass
+
+  def setWindowOpacity(self, float):
+    """ setWindowOpacity(self, float) """
+    pass
+
+  def setWindowRole(self, str):
+    """ setWindowRole(self, str) """
+    pass
+
+  def setWindowState(self, UnionQt.WindowStates=None, Qt.WindowState=None):
+    """ setWindowState(self, Union[Qt.WindowStates, Qt.WindowState]) """
+    pass
+
+  def setWindowTitle(self, str):
+    """ setWindowTitle(self, str) """
+    pass
+
+  def sharedPainter():
+    pass
+
+  def show(self):
+    """ show(self) """
+    pass
+
+  def showEvent():
+    pass
+
+  def showFullScreen(self):
+    """ showFullScreen(self) """
+    pass
+
+  def showMaximized(self):
+    """ showMaximized(self) """
+    pass
+
+  def showMinimized(self):
+    """ showMinimized(self) """
+    pass
+
+  def showNormal(self):
+    """ showNormal(self) """
+    pass
+
+  def signalsBlocked(self):
+    """ signalsBlocked(self) -> bool """
+    return None
+
+  def size(self):
+    """ size(self) -> QSize """
+    return None
+
+  def sizeHint(self):
+    """ sizeHint(self) -> QSize """
+    return None
+
+  def sizeIncrement(self):
+    """ sizeIncrement(self) -> QSize """
+    return None
+
+  def sizePolicy(self):
+    """ sizePolicy(self) -> QSizePolicy """
+    return None
+
+  def stackUnder(self, QWidget):
+    """ stackUnder(self, QWidget) """
+    pass
+
+  def startTimer(self, int, arg0=None):
+    """ startTimer(self, int, timerType: Qt.TimerType = Qt.CoarseTimer) -> int """
+    return 1
+
+  staticMetaObject = None
+
+  def statusTip(self):
+    """ statusTip(self) -> str """
+    return ""
+
+  def style(self):
+    """ style(self) -> QStyle """
+    return None
+
+  def styleSheet(self):
+    """ styleSheet(self) -> str """
+    return ""
+
+  def tabletEvent():
+    pass
+
+  def testAttribute(self, arg0):
+    """ testAttribute(self, Qt.WidgetAttribute) -> bool """
+    return None
+
+  def thread(self):
+    """ thread(self) -> QThread """
+    return None
+
+  def timerEvent():
+    pass
+
+  def toolTip(self):
+    """ toolTip(self) -> str """
+    return ""
+
+  def toolTipDuration(self):
+    """ toolTipDuration(self) -> int """
+    return 1
+
+  def tr(self, str, arg0=None, arg1=None):
+    """ tr(self, str, disambiguation: str = None, n: int = -1) -> str """
+    return ""
+
+  def underMouse(self):
+    """ underMouse(self) -> bool """
+    return None
+
+  def ungrabGesture(self, arg0):
+    """ ungrabGesture(self, Qt.GestureType) """
+    pass
+
+  def unsetCursor(self):
+    """ unsetCursor(self) """
+    pass
+
+  def unsetLayoutDirection(self):
+    """ unsetLayoutDirection(self) """
+    pass
+
+  def unsetLocale(self):
+    """ unsetLocale(self) """
+    pass
+
+  def update(self):
+    """ update(self)
+    update(self, QRect)
+    update(self, QRegion)
+    update(self, int, int, int, int) """
+    pass
+
+  def updateGeometry(self):
+    """ updateGeometry(self) """
+    pass
+
+  def updateMicroFocus():
+    pass
+
+  def updatesEnabled(self):
+    """ updatesEnabled(self) -> bool """
+    return None
+
+  def visibleRegion(self):
+    """ visibleRegion(self) -> QRegion """
+    return None
+
+  def whatsThis(self):
+    """ whatsThis(self) -> str """
+    return ""
+
+  def wheelEvent():
+    pass
+
+  def width(self):
+    """ width(self) -> int """
+    return 1
+
+  def widthMM(self):
+    """ widthMM(self) -> int """
+    return 1
+
+  def winId(self):
+    """ winId(self) -> sip.voidptr """
+    return None
+
+  def window(self):
+    """ window(self) -> QWidget """
+    return None
+
+  def windowFilePath(self):
+    """ windowFilePath(self) -> str """
+    return ""
+
+  def windowFlags(self):
+    """ windowFlags(self) -> Qt.WindowFlags """
+    return None
+
+  def windowHandle(self):
+    """ windowHandle(self) -> QWindow """
+    return None
+
+  def windowIcon(self):
+    """ windowIcon(self) -> QIcon """
+    return None
+
+  def windowIconChanged(self, QIcon):
+    """ windowIconChanged(self, QIcon) [signal] """
+    pass
+
+  def windowIconText(self):
+    """ windowIconText(self) -> str """
+    return ""
+
+  def windowIconTextChanged(self, str):
+    """ windowIconTextChanged(self, str) [signal] """
+    pass
+
+  def windowModality(self):
+    """ windowModality(self) -> Qt.WindowModality """
+    return None
+
+  def windowOpacity(self):
+    """ windowOpacity(self) -> float """
+    return 1.0
+
+  def windowRole(self):
+    """ windowRole(self) -> str """
+    return ""
+
+  def windowState(self):
+    """ windowState(self) -> Qt.WindowStates """
+    return None
+
+  def windowTitle(self):
+    """ windowTitle(self) -> str """
+    return ""
+
+  def windowTitleChanged(self, str):
+    """ windowTitleChanged(self, str) [signal] """
+    pass
+
+  def windowType(self):
+    """ windowType(self) -> Qt.WindowType """
+    return None
+
+  def x(self):
+    """ x(self) -> int """
+    return 1
+
+  def y(self):
+    """ y(self) -> int """
+    return 1
+
+__doc__ = None
+__file__ = 'C:\\Users\\Rupka\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\PyQt5\\QtSvg.pyd'
+__loader__ = None
+__name__ = 'PyQt5.QtSvg'
+__package__ = 'PyQt5'
+__spec__ = None
+

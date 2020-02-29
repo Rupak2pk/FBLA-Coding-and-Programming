@@ -1,0 +1,111 @@
+# coding: utf-8
+# AUTO-GENERATED FILE -- DO NOT EDIT
+
+
+SIP_VERSION = 327680
+SIP_VERSION_STR = '5.0.0'
+_C_API = None
+__doc__ = None
+__file__ = 'C:\\Users\\Rupka\\AppData\\Local\\Programs\\Python\\Python37\\Lib\\site-packages\\PyQt5\\sip.cp37-win_amd64.pyd'
+__loader__ = None
+__name__ = 'PyQt5.sip'
+__package__ = ''
+__spec__ = None
+
+def _unpickle_enum():
+  pass
+
+def _unpickle_type():
+  pass
+
+def assign():
+  pass
+
+def cast():
+  pass
+
+def delete():
+  pass
+
+def dump():
+  pass
+
+def enableautoconversion():
+  pass
+
+def enableoverflowchecking():
+  pass
+
+def getapi():
+  pass
+
+def isdeleted():
+  pass
+
+def ispycreated():
+  pass
+
+def ispyowned():
+  pass
+
+def setapi():
+  pass
+
+def setdeleted():
+  pass
+
+def setdestroyonexit():
+  pass
+
+def settracemask():
+  pass
+
+class simplewrapper(object):
+
+  def __init__(self, *args, **kwargs):
+    pass
+
+def transferback():
+  pass
+
+def transferto():
+  pass
+
+def unwrapinstance():
+  pass
+
+class voidptr(object):
+
+  def asarray(self):
+    pass
+
+  def ascapsule(self):
+    pass
+
+  def asstring(self):
+    pass
+
+  def getsize(self):
+    pass
+
+  def getwriteable(self):
+    pass
+
+  def setsize(self):
+    pass
+
+  def setwriteable(self):
+    pass
+
+def wrapinstance():
+  pass
+
+class wrapper(simplewrapper):
+
+  pass
+
+class wrappertype(type):
+
+  def __init__(self, *args, **kwargs):
+    pass
+

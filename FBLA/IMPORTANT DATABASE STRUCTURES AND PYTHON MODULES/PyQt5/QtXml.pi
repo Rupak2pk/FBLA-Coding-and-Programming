@@ -1,0 +1,4904 @@
+# coding: utf-8
+# AUTO-GENERATED FILE -- DO NOT EDIT
+
+
+class QDomAttr(QDomNode):
+  """ QDomAttr()
+  QDomAttr(QDomAttr) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+
+  class EncodingPolicy(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  EntityNode = None
+  EntityReferenceNode = None
+
+  class NodeType(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def name(self):
+    """ name(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def ownerElement(self):
+    """ ownerElement(self) -> QDomElement """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def setValue(self, str):
+    """ setValue(self, str) """
+    pass
+
+  def specified(self):
+    """ specified(self) -> bool """
+    return None
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+  def value(self):
+    """ value(self) -> str """
+    return ""
+
+class QDomCDATASection(QDomText):
+  """ QDomCDATASection()
+  QDomCDATASection(QDomCDATASection) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def appendData(self, str):
+    """ appendData(self, str) """
+    pass
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def data(self):
+    """ data(self) -> str """
+    return ""
+
+  def deleteData(self, int, int):
+    """ deleteData(self, int, int) """
+    pass
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertData(self, int, str):
+    """ insertData(self, int, str) """
+    pass
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def length(self):
+    """ length(self) -> int """
+    return 1
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def replaceData(self, int, int, str):
+    """ replaceData(self, int, int, str) """
+    pass
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setData(self, str):
+    """ setData(self, str) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def splitText(self, int):
+    """ splitText(self, int) -> QDomText """
+    return None
+
+  def substringData(self, int, int):
+    """ substringData(self, int, int) -> str """
+    return ""
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomCharacterData(QDomNode):
+  """ QDomCharacterData()
+  QDomCharacterData(QDomCharacterData) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def appendData(self, str):
+    """ appendData(self, str) """
+    pass
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def data(self):
+    """ data(self) -> str """
+    return ""
+
+  def deleteData(self, int, int):
+    """ deleteData(self, int, int) """
+    pass
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertData(self, int, str):
+    """ insertData(self, int, str) """
+    pass
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def length(self):
+    """ length(self) -> int """
+    return 1
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def replaceData(self, int, int, str):
+    """ replaceData(self, int, int, str) """
+    pass
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setData(self, str):
+    """ setData(self, str) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def substringData(self, int, int):
+    """ substringData(self, int, int) -> str """
+    return ""
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomComment(QDomCharacterData):
+  """ QDomComment()
+  QDomComment(QDomComment) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def appendData(self, str):
+    """ appendData(self, str) """
+    pass
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def data(self):
+    """ data(self) -> str """
+    return ""
+
+  def deleteData(self, int, int):
+    """ deleteData(self, int, int) """
+    pass
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertData(self, int, str):
+    """ insertData(self, int, str) """
+    pass
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def length(self):
+    """ length(self) -> int """
+    return 1
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def replaceData(self, int, int, str):
+    """ replaceData(self, int, int, str) """
+    pass
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setData(self, str):
+    """ setData(self, str) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def substringData(self, int, int):
+    """ substringData(self, int, int) -> str """
+    return ""
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomDocument(QDomNode):
+  """ QDomDocument()
+  QDomDocument(str)
+  QDomDocument(QDomDocumentType)
+  QDomDocument(QDomDocument) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def createAttribute(self, str):
+    """ createAttribute(self, str) -> QDomAttr """
+    return None
+
+  def createAttributeNS(self, str, str):
+    """ createAttributeNS(self, str, str) -> QDomAttr """
+    return None
+
+  def createCDATASection(self, str):
+    """ createCDATASection(self, str) -> QDomCDATASection """
+    return None
+
+  def createComment(self, str):
+    """ createComment(self, str) -> QDomComment """
+    return None
+
+  def createDocumentFragment(self):
+    """ createDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def createElement(self, str):
+    """ createElement(self, str) -> QDomElement """
+    return None
+
+  def createElementNS(self, str, str):
+    """ createElementNS(self, str, str) -> QDomElement """
+    return None
+
+  def createEntityReference(self, str):
+    """ createEntityReference(self, str) -> QDomEntityReference """
+    return None
+
+  def createProcessingInstruction(self, str, str):
+    """ createProcessingInstruction(self, str, str) -> QDomProcessingInstruction """
+    return ""
+
+  def createTextNode(self, str):
+    """ createTextNode(self, str) -> QDomText """
+    return None
+
+  def doctype(self):
+    """ doctype(self) -> QDomDocumentType """
+    return None
+
+  def documentElement(self):
+    """ documentElement(self) -> QDomElement """
+    return None
+
+  def elementById(self, str):
+    """ elementById(self, str) -> QDomElement """
+    return None
+
+  def elementsByTagName(self, str):
+    """ elementsByTagName(self, str) -> QDomNodeList """
+    return None
+
+  def elementsByTagNameNS(self, str, str):
+    """ elementsByTagNameNS(self, str, str) -> QDomNodeList """
+    return None
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def implementation(self):
+    """ implementation(self) -> QDomImplementation """
+    return None
+
+  def importNode(self, QDomNode, bool):
+    """ importNode(self, QDomNode, bool) -> QDomNode """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setContent(self, UnionQByteArray=None, bytes=None, bytearray=None, bool=None):
+    """ setContent(self, Union[QByteArray, bytes, bytearray], bool) -> Tuple[bool, str, int, int]
+    setContent(self, str, bool) -> Tuple[bool, str, int, int]
+    setContent(self, QIODevice, bool) -> Tuple[bool, str, int, int]
+    setContent(self, QXmlInputSource, bool) -> Tuple[bool, str, int, int]
+    setContent(self, Union[QByteArray, bytes, bytearray]) -> Tuple[bool, str, int, int]
+    setContent(self, str) -> Tuple[bool, str, int, int]
+    setContent(self, QIODevice) -> Tuple[bool, str, int, int]
+    setContent(self, QXmlInputSource, QXmlReader) -> Tuple[bool, str, int, int] """
+    return ""
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toByteArray(self, arg0=None):
+    """ toByteArray(self, indent: int = 1) -> QByteArray """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toString(self, arg0=None):
+    """ toString(self, indent: int = 1) -> str """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomDocumentFragment(QDomNode):
+  """ QDomDocumentFragment()
+  QDomDocumentFragment(QDomDocumentFragment) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomDocumentType(QDomNode):
+  """ QDomDocumentType()
+  QDomDocumentType(QDomDocumentType) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def entities(self):
+    """ entities(self) -> QDomNamedNodeMap """
+    return None
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def internalSubset(self):
+    """ internalSubset(self) -> str """
+    return ""
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def name(self):
+    """ name(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def notations(self):
+    """ notations(self) -> QDomNamedNodeMap """
+    return None
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def publicId(self):
+    """ publicId(self) -> str """
+    return ""
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def systemId(self):
+    """ systemId(self) -> str """
+    return ""
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomElement(QDomNode):
+  """ QDomElement()
+  QDomElement(QDomElement) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def attribute(self, str, arg0=None):
+    """ attribute(self, str, defaultValue: str = '') -> str """
+    return ""
+
+  def attributeNS(self, str, str, arg0=None):
+    """ attributeNS(self, str, str, defaultValue: str = '') -> str """
+    return ""
+
+  def attributeNode(self, str):
+    """ attributeNode(self, str) -> QDomAttr """
+    return None
+
+  def attributeNodeNS(self, str, str):
+    """ attributeNodeNS(self, str, str) -> QDomAttr """
+    return None
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def elementsByTagName(self, str):
+    """ elementsByTagName(self, str) -> QDomNodeList """
+    return None
+
+  def elementsByTagNameNS(self, str, str):
+    """ elementsByTagNameNS(self, str, str) -> QDomNodeList """
+    return None
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttribute(self, str):
+    """ hasAttribute(self, str) -> bool """
+    return None
+
+  def hasAttributeNS(self, str, str):
+    """ hasAttributeNS(self, str, str) -> bool """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeAttribute(self, str):
+    """ removeAttribute(self, str) """
+    pass
+
+  def removeAttributeNS(self, str, str):
+    """ removeAttributeNS(self, str, str) """
+    pass
+
+  def removeAttributeNode(self, QDomAttr):
+    """ removeAttributeNode(self, QDomAttr) -> QDomAttr """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setAttribute(self, str, str):
+    """ setAttribute(self, str, str)
+    setAttribute(self, str, int)
+    setAttribute(self, str, int)
+    setAttribute(self, str, float)
+    setAttribute(self, str, int) """
+    pass
+
+  def setAttributeNS(self, str, str, str):
+    """ setAttributeNS(self, str, str, str)
+    setAttributeNS(self, str, str, int)
+    setAttributeNS(self, str, str, int)
+    setAttributeNS(self, str, str, float)
+    setAttributeNS(self, str, str, int) """
+    pass
+
+  def setAttributeNode(self, QDomAttr):
+    """ setAttributeNode(self, QDomAttr) -> QDomAttr """
+    return None
+
+  def setAttributeNodeNS(self, QDomAttr):
+    """ setAttributeNodeNS(self, QDomAttr) -> QDomAttr """
+    return None
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def setTagName(self, str):
+    """ setTagName(self, str) """
+    pass
+
+  def tagName(self):
+    """ tagName(self) -> str """
+    return ""
+
+  def text(self):
+    """ text(self) -> str """
+    return ""
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomEntity(QDomNode):
+  """ QDomEntity()
+  QDomEntity(QDomEntity) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def notationName(self):
+    """ notationName(self) -> str """
+    return ""
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def publicId(self):
+    """ publicId(self) -> str """
+    return ""
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def systemId(self):
+    """ systemId(self) -> str """
+    return ""
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomEntityReference(QDomNode):
+  """ QDomEntityReference()
+  QDomEntityReference(QDomEntityReference) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomImplementation(simplewrapper):
+  """ QDomImplementation()
+  QDomImplementation(QDomImplementation) """
+
+  AcceptInvalidChars = None
+  DropInvalidChars = None
+
+  class InvalidDataPolicy(int):
+
+    bit_length = None
+    conjugate = None
+    denominator = None
+    from_bytes = None
+    imag = None
+    numerator = None
+    real = None
+    to_bytes = None
+
+  ReturnNullNode = None
+
+  def createDocument(self, str, str, QDomDocumentType):
+    """ createDocument(self, str, str, QDomDocumentType) -> QDomDocument """
+    return None
+
+  def createDocumentType(self, str, str, str):
+    """ createDocumentType(self, str, str, str) -> QDomDocumentType """
+    return None
+
+  def hasFeature(self, str, str):
+    """ hasFeature(self, str, str) -> bool """
+    return None
+
+  def invalidDataPolicy():
+    """ invalidDataPolicy() -> QDomImplementation.InvalidDataPolicy """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def setInvalidDataPolicy(arg0):
+    """ setInvalidDataPolicy(QDomImplementation.InvalidDataPolicy) """
+    pass
+
+class QDomNamedNodeMap(simplewrapper):
+  """ QDomNamedNodeMap()
+  QDomNamedNodeMap(QDomNamedNodeMap) """
+
+  def contains(self, str):
+    """ contains(self, str) -> bool """
+    return None
+
+  def count(self):
+    """ count(self) -> int """
+    return 1
+
+  def isEmpty(self):
+    """ isEmpty(self) -> bool """
+    return None
+
+  def item(self, int):
+    """ item(self, int) -> QDomNode """
+    return None
+
+  def length(self):
+    """ length(self) -> int """
+    return 1
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namedItemNS(self, str, str):
+    """ namedItemNS(self, str, str) -> QDomNode """
+    return None
+
+  def removeNamedItem(self, str):
+    """ removeNamedItem(self, str) -> QDomNode """
+    return None
+
+  def removeNamedItemNS(self, str, str):
+    """ removeNamedItemNS(self, str, str) -> QDomNode """
+    return None
+
+  def setNamedItem(self, QDomNode):
+    """ setNamedItem(self, QDomNode) -> QDomNode """
+    return None
+
+  def setNamedItemNS(self, QDomNode):
+    """ setNamedItemNS(self, QDomNode) -> QDomNode """
+    return None
+
+  def size(self):
+    """ size(self) -> int """
+    return 1
+
+class QDomNode(simplewrapper):
+  """ QDomNode()
+  QDomNode(QDomNode) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomNodeList(simplewrapper):
+  """ QDomNodeList()
+  QDomNodeList(QDomNodeList) """
+
+  def at(self, int):
+    """ at(self, int) -> QDomNode """
+    return None
+
+  def count(self):
+    """ count(self) -> int """
+    return 1
+
+  def isEmpty(self):
+    """ isEmpty(self) -> bool """
+    return None
+
+  def item(self, int):
+    """ item(self, int) -> QDomNode """
+    return None
+
+  def length(self):
+    """ length(self) -> int """
+    return 1
+
+  def size(self):
+    """ size(self) -> int """
+    return 1
+
+class QDomNotation(QDomNode):
+  """ QDomNotation()
+  QDomNotation(QDomNotation) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def publicId(self):
+    """ publicId(self) -> str """
+    return ""
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def systemId(self):
+    """ systemId(self) -> str """
+    return ""
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomProcessingInstruction(QDomNode):
+  """ QDomProcessingInstruction()
+  QDomProcessingInstruction(QDomProcessingInstruction) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def data(self):
+    """ data(self) -> str """
+    return ""
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setData(self, str):
+    """ setData(self, str) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def target(self):
+    """ target(self) -> str """
+    return ""
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QDomText(QDomCharacterData):
+  """ QDomText()
+  QDomText(QDomText) """
+
+  AttributeNode = None
+  BaseNode = None
+  CDATASectionNode = None
+  CharacterDataNode = None
+  CommentNode = None
+  DocumentFragmentNode = None
+  DocumentNode = None
+  DocumentTypeNode = None
+  ElementNode = None
+  EncodingFromDocument = None
+  EncodingFromTextStream = None
+  EntityNode = None
+  EntityReferenceNode = None
+  NotationNode = None
+  ProcessingInstructionNode = None
+  TextNode = None
+
+  def appendChild(self, QDomNode):
+    """ appendChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def appendData(self, str):
+    """ appendData(self, str) """
+    pass
+
+  def attributes(self):
+    """ attributes(self) -> QDomNamedNodeMap """
+    return None
+
+  def childNodes(self):
+    """ childNodes(self) -> QDomNodeList """
+    return None
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def cloneNode(self, arg0=None):
+    """ cloneNode(self, deep: bool = True) -> QDomNode """
+    return None
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def data(self):
+    """ data(self) -> str """
+    return ""
+
+  def deleteData(self, int, int):
+    """ deleteData(self, int, int) """
+    pass
+
+  def firstChild(self):
+    """ firstChild(self) -> QDomNode """
+    return None
+
+  def firstChildElement(self, arg0=None):
+    """ firstChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def hasAttributes(self):
+    """ hasAttributes(self) -> bool """
+    return None
+
+  def hasChildNodes(self):
+    """ hasChildNodes(self) -> bool """
+    return None
+
+  def insertAfter(self, QDomNode, QDomNode):
+    """ insertAfter(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertBefore(self, QDomNode, QDomNode):
+    """ insertBefore(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def insertData(self, int, str):
+    """ insertData(self, int, str) """
+    pass
+
+  def isAttr(self):
+    """ isAttr(self) -> bool """
+    return None
+
+  def isCDATASection(self):
+    """ isCDATASection(self) -> bool """
+    return None
+
+  def isCharacterData(self):
+    """ isCharacterData(self) -> bool """
+    return None
+
+  def isComment(self):
+    """ isComment(self) -> bool """
+    return None
+
+  def isDocument(self):
+    """ isDocument(self) -> bool """
+    return None
+
+  def isDocumentFragment(self):
+    """ isDocumentFragment(self) -> bool """
+    return None
+
+  def isDocumentType(self):
+    """ isDocumentType(self) -> bool """
+    return None
+
+  def isElement(self):
+    """ isElement(self) -> bool """
+    return None
+
+  def isEntity(self):
+    """ isEntity(self) -> bool """
+    return None
+
+  def isEntityReference(self):
+    """ isEntityReference(self) -> bool """
+    return None
+
+  def isNotation(self):
+    """ isNotation(self) -> bool """
+    return None
+
+  def isNull(self):
+    """ isNull(self) -> bool """
+    return None
+
+  def isProcessingInstruction(self):
+    """ isProcessingInstruction(self) -> bool """
+    return None
+
+  def isSupported(self, str, str):
+    """ isSupported(self, str, str) -> bool """
+    return None
+
+  def isText(self):
+    """ isText(self) -> bool """
+    return None
+
+  def lastChild(self):
+    """ lastChild(self) -> QDomNode """
+    return None
+
+  def lastChildElement(self, arg0=None):
+    """ lastChildElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def length(self):
+    """ length(self) -> int """
+    return 1
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def localName(self):
+    """ localName(self) -> str """
+    return ""
+
+  def namedItem(self, str):
+    """ namedItem(self, str) -> QDomNode """
+    return None
+
+  def namespaceURI(self):
+    """ namespaceURI(self) -> str """
+    return ""
+
+  def nextSibling(self):
+    """ nextSibling(self) -> QDomNode """
+    return None
+
+  def nextSiblingElement(self, arg0=None):
+    """ nextSiblingElement(self, taName: str = '') -> QDomElement """
+    return None
+
+  def nodeName(self):
+    """ nodeName(self) -> str """
+    return ""
+
+  def nodeType(self):
+    """ nodeType(self) -> QDomNode.NodeType """
+    return None
+
+  def nodeValue(self):
+    """ nodeValue(self) -> str """
+    return ""
+
+  def normalize(self):
+    """ normalize(self) """
+    pass
+
+  def ownerDocument(self):
+    """ ownerDocument(self) -> QDomDocument """
+    return None
+
+  def parentNode(self):
+    """ parentNode(self) -> QDomNode """
+    return None
+
+  def prefix(self):
+    """ prefix(self) -> str """
+    return ""
+
+  def previousSibling(self):
+    """ previousSibling(self) -> QDomNode """
+    return None
+
+  def previousSiblingElement(self, arg0=None):
+    """ previousSiblingElement(self, tagName: str = '') -> QDomElement """
+    return None
+
+  def removeChild(self, QDomNode):
+    """ removeChild(self, QDomNode) -> QDomNode """
+    return None
+
+  def replaceChild(self, QDomNode, QDomNode):
+    """ replaceChild(self, QDomNode, QDomNode) -> QDomNode """
+    return None
+
+  def replaceData(self, int, int, str):
+    """ replaceData(self, int, int, str) """
+    pass
+
+  def save():
+    """ save(self, QTextStream, int, QDomNode.EncodingPolicy = QDomNode.EncodingFromDocument) """
+    pass
+
+  def setData(self, str):
+    """ setData(self, str) """
+    pass
+
+  def setNodeValue(self, str):
+    """ setNodeValue(self, str) """
+    pass
+
+  def setPrefix(self, str):
+    """ setPrefix(self, str) """
+    pass
+
+  def splitText(self, int):
+    """ splitText(self, int) -> QDomText """
+    return None
+
+  def substringData(self, int, int):
+    """ substringData(self, int, int) -> str """
+    return ""
+
+  def toAttr(self):
+    """ toAttr(self) -> QDomAttr """
+    return None
+
+  def toCDATASection(self):
+    """ toCDATASection(self) -> QDomCDATASection """
+    return None
+
+  def toCharacterData(self):
+    """ toCharacterData(self) -> QDomCharacterData """
+    return None
+
+  def toComment(self):
+    """ toComment(self) -> QDomComment """
+    return None
+
+  def toDocument(self):
+    """ toDocument(self) -> QDomDocument """
+    return None
+
+  def toDocumentFragment(self):
+    """ toDocumentFragment(self) -> QDomDocumentFragment """
+    return None
+
+  def toDocumentType(self):
+    """ toDocumentType(self) -> QDomDocumentType """
+    return None
+
+  def toElement(self):
+    """ toElement(self) -> QDomElement """
+    return None
+
+  def toEntity(self):
+    """ toEntity(self) -> QDomEntity """
+    return None
+
+  def toEntityReference(self):
+    """ toEntityReference(self) -> QDomEntityReference """
+    return None
+
+  def toNotation(self):
+    """ toNotation(self) -> QDomNotation """
+    return None
+
+  def toProcessingInstruction(self):
+    """ toProcessingInstruction(self) -> QDomProcessingInstruction """
+    return ""
+
+  def toText(self):
+    """ toText(self) -> QDomText """
+    return None
+
+class QXmlAttributes(simplewrapper):
+  """ QXmlAttributes()
+  QXmlAttributes(QXmlAttributes) """
+
+  def append(self, str, str, str, str):
+    """ append(self, str, str, str, str) """
+    pass
+
+  def clear(self):
+    """ clear(self) """
+    pass
+
+  def count(self):
+    """ count(self) -> int """
+    return 1
+
+  def index(self, str):
+    """ index(self, str) -> int
+    index(self, str, str) -> int """
+    return 1
+
+  def length(self):
+    """ length(self) -> int """
+    return 1
+
+  def localName(self, int):
+    """ localName(self, int) -> str """
+    return ""
+
+  def qName(self, int):
+    """ qName(self, int) -> str """
+    return ""
+
+  def swap(self, QXmlAttributes):
+    """ swap(self, QXmlAttributes) """
+    pass
+
+  def type(self, int):
+    """ type(self, int) -> str
+    type(self, str) -> str
+    type(self, str, str) -> str """
+    return ""
+
+  def uri(self, int):
+    """ uri(self, int) -> str """
+    return ""
+
+  def value(self, int):
+    """ value(self, int) -> str
+    value(self, str) -> str
+    value(self, str, str) -> str """
+    return ""
+
+class QXmlContentHandler(simplewrapper):
+  """ QXmlContentHandler()
+  QXmlContentHandler(QXmlContentHandler) """
+
+  def characters(self, str):
+    """ characters(self, str) -> bool """
+    return None
+
+  def endDocument(self):
+    """ endDocument(self) -> bool """
+    return None
+
+  def endElement(self, str, str, str):
+    """ endElement(self, str, str, str) -> bool """
+    return None
+
+  def endPrefixMapping(self, str):
+    """ endPrefixMapping(self, str) -> bool """
+    return None
+
+  def errorString(self):
+    """ errorString(self) -> str """
+    return ""
+
+  def ignorableWhitespace(self, str):
+    """ ignorableWhitespace(self, str) -> bool """
+    return None
+
+  def processingInstruction(self, str, str):
+    """ processingInstruction(self, str, str) -> bool """
+    return None
+
+  def setDocumentLocator(self, QXmlLocator):
+    """ setDocumentLocator(self, QXmlLocator) """
+    pass
+
+  def skippedEntity(self, str):
+    """ skippedEntity(self, str) -> bool """
+    return None
+
+  def startDocument(self):
+    """ startDocument(self) -> bool """
+    return None
+
+  def startElement(self, str, str, str, QXmlAttributes):
+    """ startElement(self, str, str, str, QXmlAttributes) -> bool """
+    return None
+
+  def startPrefixMapping(self, str, str):
+    """ startPrefixMapping(self, str, str) -> bool """
+    return None
+
+class QXmlDTDHandler(simplewrapper):
+  """ QXmlDTDHandler()
+  QXmlDTDHandler(QXmlDTDHandler) """
+
+  def errorString(self):
+    """ errorString(self) -> str """
+    return ""
+
+  def notationDecl(self, str, str, str):
+    """ notationDecl(self, str, str, str) -> bool """
+    return None
+
+  def unparsedEntityDecl(self, str, str, str, str):
+    """ unparsedEntityDecl(self, str, str, str, str) -> bool """
+    return None
+
+class QXmlDeclHandler(simplewrapper):
+  """ QXmlDeclHandler()
+  QXmlDeclHandler(QXmlDeclHandler) """
+
+  def attributeDecl(self, str, str, str, str, str):
+    """ attributeDecl(self, str, str, str, str, str) -> bool """
+    return None
+
+  def errorString(self):
+    """ errorString(self) -> str """
+    return ""
+
+  def externalEntityDecl(self, str, str, str):
+    """ externalEntityDecl(self, str, str, str) -> bool """
+    return None
+
+  def internalEntityDecl(self, str, str):
+    """ internalEntityDecl(self, str, str) -> bool """
+    return None
+
+class QXmlDefaultHandler(QXmlContentHandler):
+  """ QXmlDefaultHandler() """
+
+  def attributeDecl(self, str, str, str, str, str):
+    """ attributeDecl(self, str, str, str, str, str) -> bool """
+    return None
+
+  def characters(self, str):
+    """ characters(self, str) -> bool """
+    return None
+
+  def comment(self, str):
+    """ comment(self, str) -> bool """
+    return None
+
+  def endCDATA(self):
+    """ endCDATA(self) -> bool """
+    return None
+
+  def endDTD(self):
+    """ endDTD(self) -> bool """
+    return None
+
+  def endDocument(self):
+    """ endDocument(self) -> bool """
+    return None
+
+  def endElement(self, str, str, str):
+    """ endElement(self, str, str, str) -> bool """
+    return None
+
+  def endEntity(self, str):
+    """ endEntity(self, str) -> bool """
+    return None
+
+  def endPrefixMapping(self, str):
+    """ endPrefixMapping(self, str) -> bool """
+    return None
+
+  def error(self, QXmlParseException):
+    """ error(self, QXmlParseException) -> bool """
+    return None
+
+  def errorString(self):
+    """ errorString(self) -> str """
+    return ""
+
+  def externalEntityDecl(self, str, str, str):
+    """ externalEntityDecl(self, str, str, str) -> bool """
+    return None
+
+  def fatalError(self, QXmlParseException):
+    """ fatalError(self, QXmlParseException) -> bool """
+    return None
+
+  def ignorableWhitespace(self, str):
+    """ ignorableWhitespace(self, str) -> bool """
+    return None
+
+  def internalEntityDecl(self, str, str):
+    """ internalEntityDecl(self, str, str) -> bool """
+    return None
+
+  def notationDecl(self, str, str, str):
+    """ notationDecl(self, str, str, str) -> bool """
+    return None
+
+  def processingInstruction(self, str, str):
+    """ processingInstruction(self, str, str) -> bool """
+    return None
+
+  def resolveEntity(self, str, str):
+    """ resolveEntity(self, str, str) -> Tuple[bool, QXmlInputSource] """
+    return None
+
+  def setDocumentLocator(self, QXmlLocator):
+    """ setDocumentLocator(self, QXmlLocator) """
+    pass
+
+  def skippedEntity(self, str):
+    """ skippedEntity(self, str) -> bool """
+    return None
+
+  def startCDATA(self):
+    """ startCDATA(self) -> bool """
+    return None
+
+  def startDTD(self, str, str, str):
+    """ startDTD(self, str, str, str) -> bool """
+    return None
+
+  def startDocument(self):
+    """ startDocument(self) -> bool """
+    return None
+
+  def startElement(self, str, str, str, QXmlAttributes):
+    """ startElement(self, str, str, str, QXmlAttributes) -> bool """
+    return None
+
+  def startEntity(self, str):
+    """ startEntity(self, str) -> bool """
+    return None
+
+  def startPrefixMapping(self, str, str):
+    """ startPrefixMapping(self, str, str) -> bool """
+    return None
+
+  def unparsedEntityDecl(self, str, str, str, str):
+    """ unparsedEntityDecl(self, str, str, str, str) -> bool """
+    return None
+
+  def warning(self, QXmlParseException):
+    """ warning(self, QXmlParseException) -> bool """
+    return None
+
+class QXmlEntityResolver(simplewrapper):
+  """ QXmlEntityResolver()
+  QXmlEntityResolver(QXmlEntityResolver) """
+
+  def errorString(self):
+    """ errorString(self) -> str """
+    return ""
+
+  def resolveEntity(self, str, str):
+    """ resolveEntity(self, str, str) -> Tuple[bool, QXmlInputSource] """
+    return None
+
+class QXmlErrorHandler(simplewrapper):
+  """ QXmlErrorHandler()
+  QXmlErrorHandler(QXmlErrorHandler) """
+
+  def error(self, QXmlParseException):
+    """ error(self, QXmlParseException) -> bool """
+    return None
+
+  def errorString(self):
+    """ errorString(self) -> str """
+    return ""
+
+  def fatalError(self, QXmlParseException):
+    """ fatalError(self, QXmlParseException) -> bool """
+    return None
+
+  def warning(self, QXmlParseException):
+    """ warning(self, QXmlParseException) -> bool """
+    return None
+
+class QXmlInputSource(simplewrapper):
+  """ QXmlInputSource()
+  QXmlInputSource(QIODevice)
+  QXmlInputSource(QXmlInputSource) """
+
+  EndOfData = 65534
+  EndOfDocument = 65535
+
+  def data(self):
+    """ data(self) -> str """
+    return ""
+
+  def fetchData(self):
+    """ fetchData(self) """
+    pass
+
+  def fromRawData(self, UnionQByteArray=None, bytes=None, bytearray=None, arg0=None):
+    """ fromRawData(self, Union[QByteArray, bytes, bytearray], beginning: bool = False) -> str """
+    return ""
+
+  def next(self):
+    """ next(self) -> str """
+    return ""
+
+  def reset(self):
+    """ reset(self) """
+    pass
+
+  def setData(self, str):
+    """ setData(self, str)
+    setData(self, Union[QByteArray, bytes, bytearray]) """
+    pass
+
+class QXmlLexicalHandler(simplewrapper):
+  """ QXmlLexicalHandler()
+  QXmlLexicalHandler(QXmlLexicalHandler) """
+
+  def comment(self, str):
+    """ comment(self, str) -> bool """
+    return None
+
+  def endCDATA(self):
+    """ endCDATA(self) -> bool """
+    return None
+
+  def endDTD(self):
+    """ endDTD(self) -> bool """
+    return None
+
+  def endEntity(self, str):
+    """ endEntity(self, str) -> bool """
+    return None
+
+  def errorString(self):
+    """ errorString(self) -> str """
+    return ""
+
+  def startCDATA(self):
+    """ startCDATA(self) -> bool """
+    return None
+
+  def startDTD(self, str, str, str):
+    """ startDTD(self, str, str, str) -> bool """
+    return None
+
+  def startEntity(self, str):
+    """ startEntity(self, str) -> bool """
+    return None
+
+class QXmlLocator(simplewrapper):
+  """ QXmlLocator()
+  QXmlLocator(QXmlLocator) """
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+class QXmlNamespaceSupport(simplewrapper):
+  """ QXmlNamespaceSupport() """
+
+  def popContext(self):
+    """ popContext(self) """
+    pass
+
+  def prefix(self, str):
+    """ prefix(self, str) -> str """
+    return ""
+
+  def prefixes(self):
+    """ prefixes(self) -> List[str]
+    prefixes(self, str) -> List[str] """
+    return ""
+
+  def processName(self, str, bool, str, str):
+    """ processName(self, str, bool, str, str) """
+    pass
+
+  def pushContext(self):
+    """ pushContext(self) """
+    pass
+
+  def reset(self):
+    """ reset(self) """
+    pass
+
+  def setPrefix(self, str, str):
+    """ setPrefix(self, str, str) """
+    pass
+
+  def splitName(self, str, str, str):
+    """ splitName(self, str, str, str) """
+    pass
+
+  def uri(self, str):
+    """ uri(self, str) -> str """
+    return ""
+
+class QXmlParseException(simplewrapper):
+  """ QXmlParseException(name: str = '', column: int = -1, line: int = -1, publicId: str = '', systemId: str = '')
+  QXmlParseException(QXmlParseException) """
+
+  def columnNumber(self):
+    """ columnNumber(self) -> int """
+    return 1
+
+  def lineNumber(self):
+    """ lineNumber(self) -> int """
+    return 1
+
+  def message(self):
+    """ message(self) -> str """
+    return ""
+
+  def publicId(self):
+    """ publicId(self) -> str """
+    return ""
+
+  def systemId(self):
+    """ systemId(self) -> str """
+    return ""
+
+class QXmlReader(simplewrapper):
+  """ QXmlReader()
+  QXmlReader(QXmlReader) """
+
+  def DTDHandler(self):
+    """ DTDHandler(self) -> QXmlDTDHandler """
+    return None
+
+  def contentHandler(self):
+    """ contentHandler(self) -> QXmlContentHandler """
+    return None
+
+  def declHandler(self):
+    """ declHandler(self) -> QXmlDeclHandler """
+    return None
+
+  def entityResolver(self):
+    """ entityResolver(self) -> QXmlEntityResolver """
+    return None
+
+  def errorHandler(self):
+    """ errorHandler(self) -> QXmlErrorHandler """
+    return None
+
+  def feature(self, str):
+    """ feature(self, str) -> Tuple[bool, bool] """
+    return None
+
+  def hasFeature(self, str):
+    """ hasFeature(self, str) -> bool """
+    return None
+
+  def hasProperty(self, str):
+    """ hasProperty(self, str) -> bool """
+    return None
+
+  def lexicalHandler(self):
+    """ lexicalHandler(self) -> QXmlLexicalHandler """
+    return None
+
+  def parse(self, QXmlInputSource):
+    """ parse(self, QXmlInputSource) -> bool
+    parse(self, QXmlInputSource) -> bool """
+    return None
+
+  def property(self, str):
+    """ property(self, str) -> Tuple[sip.voidptr, bool] """
+    return None
+
+  def setContentHandler(self, QXmlContentHandler):
+    """ setContentHandler(self, QXmlContentHandler) """
+    pass
+
+  def setDTDHandler(self, QXmlDTDHandler):
+    """ setDTDHandler(self, QXmlDTDHandler) """
+    pass
+
+  def setDeclHandler(self, QXmlDeclHandler):
+    """ setDeclHandler(self, QXmlDeclHandler) """
+    pass
+
+  def setEntityResolver(self, QXmlEntityResolver):
+    """ setEntityResolver(self, QXmlEntityResolver) """
+    pass
+
+  def setErrorHandler(self, QXmlErrorHandler):
+    """ setErrorHandler(self, QXmlErrorHandler) """
+    pass
+
+  def setFeature(self, str, bool):
+    """ setFeature(self, str, bool) """
+    pass
+
+  def setLexicalHandler(self, QXmlLexicalHandler):
+    """ setLexicalHandler(self, QXmlLexicalHandler) """
+    pass
+
+  def setProperty(self, str, arg0):
+    """ setProperty(self, str, sip.voidptr) """
+    pass
+
+class QXmlSimpleReader(QXmlReader):
+  """ QXmlSimpleReader() """
+
+  def DTDHandler(self):
+    """ DTDHandler(self) -> QXmlDTDHandler """
+    return None
+
+  def contentHandler(self):
+    """ contentHandler(self) -> QXmlContentHandler """
+    return None
+
+  def declHandler(self):
+    """ declHandler(self) -> QXmlDeclHandler """
+    return None
+
+  def entityResolver(self):
+    """ entityResolver(self) -> QXmlEntityResolver """
+    return None
+
+  def errorHandler(self):
+    """ errorHandler(self) -> QXmlErrorHandler """
+    return None
+
+  def feature(self, str):
+    """ feature(self, str) -> Tuple[bool, bool] """
+    return None
+
+  def hasFeature(self, str):
+    """ hasFeature(self, str) -> bool """
+    return None
+
+  def hasProperty(self, str):
+    """ hasProperty(self, str) -> bool """
+    return None
+
+  def lexicalHandler(self):
+    """ lexicalHandler(self) -> QXmlLexicalHandler """
+    return None
+
+  def parse(self, QXmlInputSource):
+    """ parse(self, QXmlInputSource) -> bool
+    parse(self, QXmlInputSource, bool) -> bool """
+    return None
+
+  def parseContinue(self):
+    """ parseContinue(self) -> bool """
+    return None
+
+  def property(self, str):
+    """ property(self, str) -> Tuple[sip.voidptr, bool] """
+    return None
+
+  def setContentHandler(self, QXmlContentHandler):
+    """ setContentHandler(self, QXmlContentHandler) """
+    pass
+
+  def setDTDHandler(self, QXmlDTDHandler):
+    """ setDTDHandler(self, QXmlDTDHandler) """
+    pass
+
+  def setDeclHandler(self, QXmlDeclHandler):
+    """ setDeclHandler(self, QXmlDeclHandler) """
+    pass
+
+  def setEntityResolver(self, QXmlEntityResolver):
+    """ setEntityResolver(self, QXmlEntityResolver) """
+    pass
+
+  def setErrorHandler(self, QXmlErrorHandler):
+    """ setErrorHandler(self, QXmlErrorHandler) """
+    pass
+
+  def setFeature(self, str, bool):
+    """ setFeature(self, str, bool) """
+    pass
+
+  def setLexicalHandler(self, QXmlLexicalHandler):
+    """ setLexicalHandler(self, QXmlLexicalHandler) """
+    pass
+
+  def setProperty(self, str, arg0):
+    """ setProperty(self, str, sip.voidptr) """
+    pass
+
+__doc__ = None
+__file__ = 'C:\\Users\\Rupka\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\PyQt5\\QtXml.pyd'
+__loader__ = None
+__name__ = 'PyQt5.QtXml'
+__package__ = 'PyQt5'
+__spec__ = None
+
