@@ -28,14 +28,13 @@ install Pyqt5 using pip https://pypi.org/project/PyQt5/
 
 2. Create and run a server via localhost
 
-3. Create a database with the desired name. Perferably "username".
+3. Create a database with the name "username".
 
 4. Go to MySQL command line and import the user tables via command line. 
-	mysql> use db_name;
-	mysql> source backup-username_log.sql;
-	mysql> source backup-username_users.sql;
-
-*db_name would be the name of the database
+	mysql> use db_username;
+	mysql> source /PATH TO FILE/username_log.sql;
+	mysql> source /PATH TO FILE/username_users.sql;
+*/PATH TO FILE/ is the exact path that the database must use in order to import data. It is recommended that the files should be moved to C:/Program Files/MySQL/MySQL Server 5.7/bin/
 
 5. Open the program file with a code editior program and adjust the "db = mysql.connect()" code written between lines 12-16. 
 	-Change "host" to your server host id
