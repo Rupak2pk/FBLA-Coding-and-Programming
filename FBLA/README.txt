@@ -16,7 +16,7 @@ This is for you, if you're planning on running this program.
 
 In order to run the application, make sure you have at least Python 3.7 installed onto your computer.
 
-Use a code editor such as Wing Personal (in credits) or visual studio.
+**Use a code editor such as Wing Personal (in credits) or visual studio.**
 
 Be sure to install pip https://pip.pypa.io/en/stable/installing/
 
