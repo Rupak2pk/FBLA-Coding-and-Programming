@@ -1,6 +1,8 @@
 
 Hello! I see you have questions regarding the Program.py file or the FBLA application.
 
+The executable file doesn't exist on this github repository because the file is too big (37.2 MB). You can find it here on the link below:
+https://www.dropbox.com/sh/riiuazuj0bp13vs/AACwiwmlexQzdQvHn1zq3eBWa?dl=0
 
 Most of the details of how the code works is in the py file which I will put with the application.
 
